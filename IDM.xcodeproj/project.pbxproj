@@ -7,6 +7,56 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D3A46D319EEDA4400F9D84B /* available-properties.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D3A46B119EEDA4400F9D84B /* available-properties.png */; };
+		5D3A46D419EEDA4400F9D84B /* available-properties@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D3A46B219EEDA4400F9D84B /* available-properties@2x.png */; };
+		5D3A46D519EEDA4400F9D84B /* back-arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D3A46B319EEDA4400F9D84B /* back-arrow.png */; };
+		5D3A46D619EEDA4400F9D84B /* back-arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D3A46B419EEDA4400F9D84B /* back-arrow@2x.png */; };
+		5D3A46D719EEDA4400F9D84B /* blurred-background.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D3A46B519EEDA4400F9D84B /* blurred-background.png */; };
+		5D3A46D819EEDA4400F9D84B /* blurred-background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D3A46B619EEDA4400F9D84B /* blurred-background@2x.png */; };
+		5D3A46D919EEDA4400F9D84B /* Cranberry Country Lodge.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D3A46B719EEDA4400F9D84B /* Cranberry Country Lodge.png */; };
+		5D3A46DA19EEDA4400F9D84B /* Cranberry Country Lodge@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D3A46B819EEDA4400F9D84B /* Cranberry Country Lodge@2x.png */; };
+		5D3A46DB19EEDA4400F9D84B /* Edgewater Resort.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D3A46B919EEDA4400F9D84B /* Edgewater Resort.png */; };
+		5D3A46DC19EEDA4400F9D84B /* Edgewater Resort@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D3A46BA19EEDA4400F9D84B /* Edgewater Resort@2x.png */; };
+		5D3A46DD19EEDA4400F9D84B /* help-me-find-a-property.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D3A46BB19EEDA4400F9D84B /* help-me-find-a-property.png */; };
+		5D3A46DE19EEDA4400F9D84B /* help-me-find-a-property@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D3A46BC19EEDA4400F9D84B /* help-me-find-a-property@2x.png */; };
+		5D3A46DF19EEDA4400F9D84B /* Hotel Julien Dubuque.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D3A46BD19EEDA4400F9D84B /* Hotel Julien Dubuque.png */; };
+		5D3A46E019EEDA4400F9D84B /* Hotel Julien Dubuque@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D3A46BE19EEDA4400F9D84B /* Hotel Julien Dubuque@2x.png */; };
+		5D3A46E119EEDA4400F9D84B /* Hotel Marshfield.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D3A46BF19EEDA4400F9D84B /* Hotel Marshfield.png */; };
+		5D3A46E219EEDA4400F9D84B /* Hotel Marshfield@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D3A46C019EEDA4400F9D84B /* Hotel Marshfield@2x.png */; };
+		5D3A46E519EEDA4400F9D84B /* i-know-the-property.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D3A46C319EEDA4400F9D84B /* i-know-the-property.png */; };
+		5D3A46E619EEDA4400F9D84B /* i-know-the-property@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D3A46C419EEDA4400F9D84B /* i-know-the-property@2x.png */; };
+		5D3A46E719EEDA4400F9D84B /* Jefferson Street Inn.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D3A46C519EEDA4400F9D84B /* Jefferson Street Inn.png */; };
+		5D3A46E819EEDA4400F9D84B /* Jefferson Street Inn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D3A46C619EEDA4400F9D84B /* Jefferson Street Inn@2x.png */; };
+		5D3A46E919EEDA4400F9D84B /* next.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D3A46C719EEDA4400F9D84B /* next.png */; };
+		5D3A46EA19EEDA4400F9D84B /* next@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D3A46C819EEDA4400F9D84B /* next@2x.png */; };
+		5D3A46EB19EEDA4400F9D84B /* Ramada Janesville.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D3A46C919EEDA4400F9D84B /* Ramada Janesville.png */; };
+		5D3A46EC19EEDA4400F9D84B /* Ramada Janesville@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D3A46CA19EEDA4400F9D84B /* Ramada Janesville@2x.png */; };
+		5D3A46ED19EEDA4400F9D84B /* request-for-proposal.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D3A46CB19EEDA4400F9D84B /* request-for-proposal.png */; };
+		5D3A46EE19EEDA4400F9D84B /* request-for-proposal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D3A46CC19EEDA4400F9D84B /* request-for-proposal@2x.png */; };
+		5D3A46EF19EEDA4400F9D84B /* splash.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D3A46CD19EEDA4400F9D84B /* splash.png */; };
+		5D3A46F019EEDA4400F9D84B /* splash@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D3A46CE19EEDA4400F9D84B /* splash@2x.png */; };
+		5D3A46F119EEDA4400F9D84B /* The Plaza Hotel & Café.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D3A46CF19EEDA4400F9D84B /* The Plaza Hotel & Café.png */; };
+		5D3A46F219EEDA4400F9D84B /* The Plaza Hotel & Café@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D3A46D019EEDA4400F9D84B /* The Plaza Hotel & Café@2x.png */; };
+		5D3A46F319EEDA4400F9D84B /* what-is-the-size-of-your-group-event.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D3A46D119EEDA4400F9D84B /* what-is-the-size-of-your-group-event.png */; };
+		5D3A46F419EEDA4400F9D84B /* what-is-the-size-of-your-group-event@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D3A46D219EEDA4400F9D84B /* what-is-the-size-of-your-group-event@2x.png */; };
+		5D3A46F719EEDD4300F9D84B /* PropertyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D3A46F619EEDD4300F9D84B /* PropertyTableViewCell.m */; };
+		5D3A46F919EEDF2400F9D84B /* Museo700-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5D3A46F819EEDF2400F9D84B /* Museo700-Regular.otf */; };
+		5D3A46FC19EEEA3500F9D84B /* PropertyDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D3A46FB19EEEA3500F9D84B /* PropertyDetailViewController.m */; };
+		5D3A46FE19EEEE3F00F9D84B /* Museo300-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5D3A46FD19EEEE3F00F9D84B /* Museo300-Regular.otf */; };
+		5D3A470E19EF01AD00F9D84B /* Cranberry Country Lodge Photo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5D3A470019EF01AD00F9D84B /* Cranberry Country Lodge Photo.jpg */; };
+		5D3A470F19EF01AD00F9D84B /* Cranberry Country Lodge Photo@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5D3A470119EF01AD00F9D84B /* Cranberry Country Lodge Photo@2x.jpg */; };
+		5D3A471019EF01AD00F9D84B /* Edgewater Resort Photo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5D3A470219EF01AD00F9D84B /* Edgewater Resort Photo.jpg */; };
+		5D3A471119EF01AD00F9D84B /* Edgewater Resort Photo@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5D3A470319EF01AD00F9D84B /* Edgewater Resort Photo@2x.jpg */; };
+		5D3A471219EF01AD00F9D84B /* Hotel Julien Dubuque Photo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5D3A470419EF01AD00F9D84B /* Hotel Julien Dubuque Photo.jpg */; };
+		5D3A471319EF01AD00F9D84B /* Hotel Julien Dubuque Photo@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5D3A470519EF01AD00F9D84B /* Hotel Julien Dubuque Photo@2x.jpg */; };
+		5D3A471419EF01AD00F9D84B /* Hotel Marshfield Photo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5D3A470619EF01AD00F9D84B /* Hotel Marshfield Photo.jpg */; };
+		5D3A471519EF01AD00F9D84B /* Hotel Marshfield Photo@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5D3A470719EF01AD00F9D84B /* Hotel Marshfield Photo@2x.jpg */; };
+		5D3A471619EF01AD00F9D84B /* Jefferson Street Inn Photo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5D3A470819EF01AD00F9D84B /* Jefferson Street Inn Photo.jpg */; };
+		5D3A471719EF01AD00F9D84B /* Jefferson Street Inn Photo@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5D3A470919EF01AD00F9D84B /* Jefferson Street Inn Photo@2x.jpg */; };
+		5D3A471819EF01AD00F9D84B /* Ramada Janesville Photo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5D3A470A19EF01AD00F9D84B /* Ramada Janesville Photo.jpg */; };
+		5D3A471919EF01AD00F9D84B /* Ramada Janesville Photo@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5D3A470B19EF01AD00F9D84B /* Ramada Janesville Photo@2x.jpg */; };
+		5D3A471A19EF01AD00F9D84B /* The Plaza Hotel & Café Photo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5D3A470C19EF01AD00F9D84B /* The Plaza Hotel & Café Photo.jpg */; };
+		5D3A471B19EF01AD00F9D84B /* The Plaza Hotel & Café Photo@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5D3A470D19EF01AD00F9D84B /* The Plaza Hotel & Café Photo@2x.jpg */; };
 		5D4AEBCA19ED7A5B00FA040F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D4AEBC919ED7A5B00FA040F /* main.m */; };
 		5D4AEBCD19ED7A5B00FA040F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D4AEBCC19ED7A5B00FA040F /* AppDelegate.m */; };
 		5D4AEBD019ED7A5B00FA040F /* IDM.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5D4AEBCE19ED7A5B00FA040F /* IDM.xcdatamodeld */; };
@@ -16,6 +66,21 @@
 		5D4AEBDB19ED7A5B00FA040F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D4AEBDA19ED7A5B00FA040F /* Images.xcassets */; };
 		5D4AEBDE19ED7A5B00FA040F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D4AEBDC19ED7A5B00FA040F /* LaunchScreen.xib */; };
 		5D4AEBEA19ED7A5B00FA040F /* IDMTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D4AEBE919ED7A5B00FA040F /* IDMTests.m */; };
+		5D4AEBF819EDA44600FA040F /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D4AEBF719EDA44600FA040F /* Event.m */; };
+		5D4AEC0919EDA65700FA040F /* Underscore+Strings.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D4AEBFC19EDA65700FA040F /* Underscore+Strings.m */; };
+		5D4AEC0A19EDA65700FA040F /* USStringWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D4AEBFE19EDA65700FA040F /* USStringWrapper.m */; };
+		5D4AEC0B19EDA65700FA040F /* Underscore+Functional.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D4AEC0019EDA65700FA040F /* Underscore+Functional.m */; };
+		5D4AEC0C19EDA65700FA040F /* Underscore.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D4AEC0319EDA65700FA040F /* Underscore.m */; };
+		5D4AEC0D19EDA65700FA040F /* USArrayWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D4AEC0519EDA65700FA040F /* USArrayWrapper.m */; };
+		5D4AEC0E19EDA65700FA040F /* USDictionaryWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D4AEC0819EDA65700FA040F /* USDictionaryWrapper.m */; };
+		5D4AEC1119EED7CF00FA040F /* PropertyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D4AEC1019EED7CF00FA040F /* PropertyTableViewController.m */; };
+		5D91C22719EF11810080F67D /* IDMNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D91C22619EF11810080F67D /* IDMNavigationController.m */; };
+		5D91C22A19EF15B50080F67D /* MuseoSans-300.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5D91C22819EF15B50080F67D /* MuseoSans-300.otf */; };
+		5D91C22B19EF15B50080F67D /* MuseoSans_700.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5D91C22919EF15B50080F67D /* MuseoSans_700.otf */; };
+		5DCDD41519FAF57800681C3B /* PartySizeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DCDD41419FAF57800681C3B /* PartySizeViewController.m */; };
+		5DCDD41819FAF59000681C3B /* PartyTypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DCDD41719FAF59000681C3B /* PartyTypeViewController.m */; };
+		5DCDD41B19FAF5A700681C3B /* PartyNeedsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DCDD41A19FAF5A700681C3B /* PartyNeedsViewController.m */; };
+		5DCDD41E19FAFAEA00681C3B /* AvailablePropertiesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DCDD41D19FAFAEA00681C3B /* AvailablePropertiesViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +94,58 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5D3A46B119EEDA4400F9D84B /* available-properties.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "available-properties.png"; sourceTree = "<group>"; };
+		5D3A46B219EEDA4400F9D84B /* available-properties@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "available-properties@2x.png"; sourceTree = "<group>"; };
+		5D3A46B319EEDA4400F9D84B /* back-arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back-arrow.png"; sourceTree = "<group>"; };
+		5D3A46B419EEDA4400F9D84B /* back-arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back-arrow@2x.png"; sourceTree = "<group>"; };
+		5D3A46B519EEDA4400F9D84B /* blurred-background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blurred-background.png"; sourceTree = "<group>"; };
+		5D3A46B619EEDA4400F9D84B /* blurred-background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blurred-background@2x.png"; sourceTree = "<group>"; };
+		5D3A46B719EEDA4400F9D84B /* Cranberry Country Lodge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cranberry Country Lodge.png"; sourceTree = "<group>"; };
+		5D3A46B819EEDA4400F9D84B /* Cranberry Country Lodge@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cranberry Country Lodge@2x.png"; sourceTree = "<group>"; };
+		5D3A46B919EEDA4400F9D84B /* Edgewater Resort.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Edgewater Resort.png"; sourceTree = "<group>"; };
+		5D3A46BA19EEDA4400F9D84B /* Edgewater Resort@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Edgewater Resort@2x.png"; sourceTree = "<group>"; };
+		5D3A46BB19EEDA4400F9D84B /* help-me-find-a-property.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "help-me-find-a-property.png"; sourceTree = "<group>"; };
+		5D3A46BC19EEDA4400F9D84B /* help-me-find-a-property@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "help-me-find-a-property@2x.png"; sourceTree = "<group>"; };
+		5D3A46BD19EEDA4400F9D84B /* Hotel Julien Dubuque.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Hotel Julien Dubuque.png"; sourceTree = "<group>"; };
+		5D3A46BE19EEDA4400F9D84B /* Hotel Julien Dubuque@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Hotel Julien Dubuque@2x.png"; sourceTree = "<group>"; };
+		5D3A46BF19EEDA4400F9D84B /* Hotel Marshfield.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Hotel Marshfield.png"; sourceTree = "<group>"; };
+		5D3A46C019EEDA4400F9D84B /* Hotel Marshfield@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Hotel Marshfield@2x.png"; sourceTree = "<group>"; };
+		5D3A46C319EEDA4400F9D84B /* i-know-the-property.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "i-know-the-property.png"; sourceTree = "<group>"; };
+		5D3A46C419EEDA4400F9D84B /* i-know-the-property@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "i-know-the-property@2x.png"; sourceTree = "<group>"; };
+		5D3A46C519EEDA4400F9D84B /* Jefferson Street Inn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Jefferson Street Inn.png"; sourceTree = "<group>"; };
+		5D3A46C619EEDA4400F9D84B /* Jefferson Street Inn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Jefferson Street Inn@2x.png"; sourceTree = "<group>"; };
+		5D3A46C719EEDA4400F9D84B /* next.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = next.png; sourceTree = "<group>"; };
+		5D3A46C819EEDA4400F9D84B /* next@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "next@2x.png"; sourceTree = "<group>"; };
+		5D3A46C919EEDA4400F9D84B /* Ramada Janesville.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ramada Janesville.png"; sourceTree = "<group>"; };
+		5D3A46CA19EEDA4400F9D84B /* Ramada Janesville@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ramada Janesville@2x.png"; sourceTree = "<group>"; };
+		5D3A46CB19EEDA4400F9D84B /* request-for-proposal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "request-for-proposal.png"; sourceTree = "<group>"; };
+		5D3A46CC19EEDA4400F9D84B /* request-for-proposal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "request-for-proposal@2x.png"; sourceTree = "<group>"; };
+		5D3A46CD19EEDA4400F9D84B /* splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash.png; sourceTree = "<group>"; };
+		5D3A46CE19EEDA4400F9D84B /* splash@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "splash@2x.png"; sourceTree = "<group>"; };
+		5D3A46CF19EEDA4400F9D84B /* The Plaza Hotel & Café.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "The Plaza Hotel & Café.png"; sourceTree = "<group>"; };
+		5D3A46D019EEDA4400F9D84B /* The Plaza Hotel & Café@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "The Plaza Hotel & Café@2x.png"; sourceTree = "<group>"; };
+		5D3A46D119EEDA4400F9D84B /* what-is-the-size-of-your-group-event.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "what-is-the-size-of-your-group-event.png"; sourceTree = "<group>"; };
+		5D3A46D219EEDA4400F9D84B /* what-is-the-size-of-your-group-event@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "what-is-the-size-of-your-group-event@2x.png"; sourceTree = "<group>"; };
+		5D3A46F519EEDD4300F9D84B /* PropertyTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PropertyTableViewCell.h; sourceTree = "<group>"; };
+		5D3A46F619EEDD4300F9D84B /* PropertyTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PropertyTableViewCell.m; sourceTree = "<group>"; };
+		5D3A46F819EEDF2400F9D84B /* Museo700-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Museo700-Regular.otf"; sourceTree = "<group>"; };
+		5D3A46FA19EEEA3500F9D84B /* PropertyDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PropertyDetailViewController.h; sourceTree = "<group>"; };
+		5D3A46FB19EEEA3500F9D84B /* PropertyDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PropertyDetailViewController.m; sourceTree = "<group>"; };
+		5D3A46FD19EEEE3F00F9D84B /* Museo300-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Museo300-Regular.otf"; sourceTree = "<group>"; };
+		5D3A470019EF01AD00F9D84B /* Cranberry Country Lodge Photo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cranberry Country Lodge Photo.jpg"; sourceTree = "<group>"; };
+		5D3A470119EF01AD00F9D84B /* Cranberry Country Lodge Photo@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cranberry Country Lodge Photo@2x.jpg"; sourceTree = "<group>"; };
+		5D3A470219EF01AD00F9D84B /* Edgewater Resort Photo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Edgewater Resort Photo.jpg"; sourceTree = "<group>"; };
+		5D3A470319EF01AD00F9D84B /* Edgewater Resort Photo@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Edgewater Resort Photo@2x.jpg"; sourceTree = "<group>"; };
+		5D3A470419EF01AD00F9D84B /* Hotel Julien Dubuque Photo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Hotel Julien Dubuque Photo.jpg"; sourceTree = "<group>"; };
+		5D3A470519EF01AD00F9D84B /* Hotel Julien Dubuque Photo@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Hotel Julien Dubuque Photo@2x.jpg"; sourceTree = "<group>"; };
+		5D3A470619EF01AD00F9D84B /* Hotel Marshfield Photo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Hotel Marshfield Photo.jpg"; sourceTree = "<group>"; };
+		5D3A470719EF01AD00F9D84B /* Hotel Marshfield Photo@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Hotel Marshfield Photo@2x.jpg"; sourceTree = "<group>"; };
+		5D3A470819EF01AD00F9D84B /* Jefferson Street Inn Photo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Jefferson Street Inn Photo.jpg"; sourceTree = "<group>"; };
+		5D3A470919EF01AD00F9D84B /* Jefferson Street Inn Photo@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Jefferson Street Inn Photo@2x.jpg"; sourceTree = "<group>"; };
+		5D3A470A19EF01AD00F9D84B /* Ramada Janesville Photo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Ramada Janesville Photo.jpg"; sourceTree = "<group>"; };
+		5D3A470B19EF01AD00F9D84B /* Ramada Janesville Photo@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Ramada Janesville Photo@2x.jpg"; sourceTree = "<group>"; };
+		5D3A470C19EF01AD00F9D84B /* The Plaza Hotel & Café Photo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "The Plaza Hotel & Café Photo.jpg"; sourceTree = "<group>"; };
+		5D3A470D19EF01AD00F9D84B /* The Plaza Hotel & Café Photo@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "The Plaza Hotel & Café Photo@2x.jpg"; sourceTree = "<group>"; };
 		5D4AEBC419ED7A5B00FA040F /* IDM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IDM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D4AEBC819ED7A5B00FA040F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5D4AEBC919ED7A5B00FA040F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -45,6 +162,36 @@
 		5D4AEBE319ED7A5B00FA040F /* IDMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IDMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D4AEBE819ED7A5B00FA040F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5D4AEBE919ED7A5B00FA040F /* IDMTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IDMTests.m; sourceTree = "<group>"; };
+		5D4AEBF619EDA44600FA040F /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Event.h; sourceTree = "<group>"; };
+		5D4AEBF719EDA44600FA040F /* Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Event.m; sourceTree = "<group>"; };
+		5D4AEBFB19EDA65700FA040F /* Underscore+Strings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Underscore+Strings.h"; sourceTree = "<group>"; };
+		5D4AEBFC19EDA65700FA040F /* Underscore+Strings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Underscore+Strings.m"; sourceTree = "<group>"; };
+		5D4AEBFD19EDA65700FA040F /* USStringWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = USStringWrapper.h; sourceTree = "<group>"; };
+		5D4AEBFE19EDA65700FA040F /* USStringWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = USStringWrapper.m; sourceTree = "<group>"; };
+		5D4AEBFF19EDA65700FA040F /* Underscore+Functional.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Underscore+Functional.h"; sourceTree = "<group>"; };
+		5D4AEC0019EDA65700FA040F /* Underscore+Functional.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Underscore+Functional.m"; sourceTree = "<group>"; };
+		5D4AEC0119EDA65700FA040F /* Underscore-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Underscore-Prefix.pch"; sourceTree = "<group>"; };
+		5D4AEC0219EDA65700FA040F /* Underscore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Underscore.h; sourceTree = "<group>"; };
+		5D4AEC0319EDA65700FA040F /* Underscore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Underscore.m; sourceTree = "<group>"; };
+		5D4AEC0419EDA65700FA040F /* USArrayWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = USArrayWrapper.h; sourceTree = "<group>"; };
+		5D4AEC0519EDA65700FA040F /* USArrayWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = USArrayWrapper.m; sourceTree = "<group>"; };
+		5D4AEC0619EDA65700FA040F /* USConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = USConstants.h; sourceTree = "<group>"; };
+		5D4AEC0719EDA65700FA040F /* USDictionaryWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = USDictionaryWrapper.h; sourceTree = "<group>"; };
+		5D4AEC0819EDA65700FA040F /* USDictionaryWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = USDictionaryWrapper.m; sourceTree = "<group>"; };
+		5D4AEC0F19EED7CF00FA040F /* PropertyTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PropertyTableViewController.h; sourceTree = "<group>"; };
+		5D4AEC1019EED7CF00FA040F /* PropertyTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PropertyTableViewController.m; sourceTree = "<group>"; };
+		5D91C22519EF11810080F67D /* IDMNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDMNavigationController.h; sourceTree = "<group>"; };
+		5D91C22619EF11810080F67D /* IDMNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDMNavigationController.m; sourceTree = "<group>"; };
+		5D91C22819EF15B50080F67D /* MuseoSans-300.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MuseoSans-300.otf"; sourceTree = "<group>"; };
+		5D91C22919EF15B50080F67D /* MuseoSans_700.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MuseoSans_700.otf; sourceTree = "<group>"; };
+		5DCDD41319FAF57800681C3B /* PartySizeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PartySizeViewController.h; sourceTree = "<group>"; };
+		5DCDD41419FAF57800681C3B /* PartySizeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PartySizeViewController.m; sourceTree = "<group>"; };
+		5DCDD41619FAF59000681C3B /* PartyTypeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PartyTypeViewController.h; sourceTree = "<group>"; };
+		5DCDD41719FAF59000681C3B /* PartyTypeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PartyTypeViewController.m; sourceTree = "<group>"; };
+		5DCDD41919FAF5A700681C3B /* PartyNeedsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PartyNeedsViewController.h; sourceTree = "<group>"; };
+		5DCDD41A19FAF5A700681C3B /* PartyNeedsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PartyNeedsViewController.m; sourceTree = "<group>"; };
+		5DCDD41C19FAFAEA00681C3B /* AvailablePropertiesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AvailablePropertiesViewController.h; sourceTree = "<group>"; };
+		5DCDD41D19FAFAEA00681C3B /* AvailablePropertiesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AvailablePropertiesViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +212,71 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5D3A46B019EEDA3A00F9D84B /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				5D91C22819EF15B50080F67D /* MuseoSans-300.otf */,
+				5D91C22919EF15B50080F67D /* MuseoSans_700.otf */,
+				5D3A46FF19EF019B00F9D84B /* Detail Photos */,
+				5D3A46FD19EEEE3F00F9D84B /* Museo300-Regular.otf */,
+				5D3A46F819EEDF2400F9D84B /* Museo700-Regular.otf */,
+				5D3A46B119EEDA4400F9D84B /* available-properties.png */,
+				5D3A46B219EEDA4400F9D84B /* available-properties@2x.png */,
+				5D3A46B319EEDA4400F9D84B /* back-arrow.png */,
+				5D3A46B419EEDA4400F9D84B /* back-arrow@2x.png */,
+				5D3A46B519EEDA4400F9D84B /* blurred-background.png */,
+				5D3A46B619EEDA4400F9D84B /* blurred-background@2x.png */,
+				5D3A46B719EEDA4400F9D84B /* Cranberry Country Lodge.png */,
+				5D3A46B819EEDA4400F9D84B /* Cranberry Country Lodge@2x.png */,
+				5D3A46B919EEDA4400F9D84B /* Edgewater Resort.png */,
+				5D3A46BA19EEDA4400F9D84B /* Edgewater Resort@2x.png */,
+				5D3A46BB19EEDA4400F9D84B /* help-me-find-a-property.png */,
+				5D3A46BC19EEDA4400F9D84B /* help-me-find-a-property@2x.png */,
+				5D3A46BD19EEDA4400F9D84B /* Hotel Julien Dubuque.png */,
+				5D3A46BE19EEDA4400F9D84B /* Hotel Julien Dubuque@2x.png */,
+				5D3A46BF19EEDA4400F9D84B /* Hotel Marshfield.png */,
+				5D3A46C019EEDA4400F9D84B /* Hotel Marshfield@2x.png */,
+				5D3A46C319EEDA4400F9D84B /* i-know-the-property.png */,
+				5D3A46C419EEDA4400F9D84B /* i-know-the-property@2x.png */,
+				5D3A46C519EEDA4400F9D84B /* Jefferson Street Inn.png */,
+				5D3A46C619EEDA4400F9D84B /* Jefferson Street Inn@2x.png */,
+				5D3A46C719EEDA4400F9D84B /* next.png */,
+				5D3A46C819EEDA4400F9D84B /* next@2x.png */,
+				5D3A46C919EEDA4400F9D84B /* Ramada Janesville.png */,
+				5D3A46CA19EEDA4400F9D84B /* Ramada Janesville@2x.png */,
+				5D3A46CB19EEDA4400F9D84B /* request-for-proposal.png */,
+				5D3A46CC19EEDA4400F9D84B /* request-for-proposal@2x.png */,
+				5D3A46CD19EEDA4400F9D84B /* splash.png */,
+				5D3A46CE19EEDA4400F9D84B /* splash@2x.png */,
+				5D3A46CF19EEDA4400F9D84B /* The Plaza Hotel & Café.png */,
+				5D3A46D019EEDA4400F9D84B /* The Plaza Hotel & Café@2x.png */,
+				5D3A46D119EEDA4400F9D84B /* what-is-the-size-of-your-group-event.png */,
+				5D3A46D219EEDA4400F9D84B /* what-is-the-size-of-your-group-event@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		5D3A46FF19EF019B00F9D84B /* Detail Photos */ = {
+			isa = PBXGroup;
+			children = (
+				5D3A470019EF01AD00F9D84B /* Cranberry Country Lodge Photo.jpg */,
+				5D3A470119EF01AD00F9D84B /* Cranberry Country Lodge Photo@2x.jpg */,
+				5D3A470219EF01AD00F9D84B /* Edgewater Resort Photo.jpg */,
+				5D3A470319EF01AD00F9D84B /* Edgewater Resort Photo@2x.jpg */,
+				5D3A470419EF01AD00F9D84B /* Hotel Julien Dubuque Photo.jpg */,
+				5D3A470519EF01AD00F9D84B /* Hotel Julien Dubuque Photo@2x.jpg */,
+				5D3A470619EF01AD00F9D84B /* Hotel Marshfield Photo.jpg */,
+				5D3A470719EF01AD00F9D84B /* Hotel Marshfield Photo@2x.jpg */,
+				5D3A470819EF01AD00F9D84B /* Jefferson Street Inn Photo.jpg */,
+				5D3A470919EF01AD00F9D84B /* Jefferson Street Inn Photo@2x.jpg */,
+				5D3A470A19EF01AD00F9D84B /* Ramada Janesville Photo.jpg */,
+				5D3A470B19EF01AD00F9D84B /* Ramada Janesville Photo@2x.jpg */,
+				5D3A470C19EF01AD00F9D84B /* The Plaza Hotel & Café Photo.jpg */,
+				5D3A470D19EF01AD00F9D84B /* The Plaza Hotel & Café Photo@2x.jpg */,
+			);
+			name = "Detail Photos";
+			sourceTree = "<group>";
+		};
 		5D4AEBBB19ED7A5B00FA040F = {
 			isa = PBXGroup;
 			children = (
@@ -86,6 +298,7 @@
 		5D4AEBC619ED7A5B00FA040F /* IDM */ = {
 			isa = PBXGroup;
 			children = (
+				5D3A46B019EEDA3A00F9D84B /* Images */,
 				5D4AEBCB19ED7A5B00FA040F /* AppDelegate.h */,
 				5D4AEBCC19ED7A5B00FA040F /* AppDelegate.m */,
 				5D4AEBD119ED7A5B00FA040F /* MasterViewController.h */,
@@ -93,9 +306,28 @@
 				5D4AEBD419ED7A5B00FA040F /* DetailViewController.h */,
 				5D4AEBD519ED7A5B00FA040F /* DetailViewController.m */,
 				5D4AEBD719ED7A5B00FA040F /* Main.storyboard */,
+				5DCDD41C19FAFAEA00681C3B /* AvailablePropertiesViewController.h */,
+				5DCDD41D19FAFAEA00681C3B /* AvailablePropertiesViewController.m */,
+				5DCDD41919FAF5A700681C3B /* PartyNeedsViewController.h */,
+				5DCDD41A19FAF5A700681C3B /* PartyNeedsViewController.m */,
+				5DCDD41619FAF59000681C3B /* PartyTypeViewController.h */,
+				5DCDD41719FAF59000681C3B /* PartyTypeViewController.m */,
+				5DCDD41319FAF57800681C3B /* PartySizeViewController.h */,
+				5DCDD41419FAF57800681C3B /* PartySizeViewController.m */,
+				5D3A46FA19EEEA3500F9D84B /* PropertyDetailViewController.h */,
+				5D3A46FB19EEEA3500F9D84B /* PropertyDetailViewController.m */,
+				5D91C22519EF11810080F67D /* IDMNavigationController.h */,
+				5D91C22619EF11810080F67D /* IDMNavigationController.m */,
+				5D3A46F519EEDD4300F9D84B /* PropertyTableViewCell.h */,
+				5D3A46F619EEDD4300F9D84B /* PropertyTableViewCell.m */,
+				5D4AEC0F19EED7CF00FA040F /* PropertyTableViewController.h */,
+				5D4AEC1019EED7CF00FA040F /* PropertyTableViewController.m */,
 				5D4AEBDA19ED7A5B00FA040F /* Images.xcassets */,
 				5D4AEBDC19ED7A5B00FA040F /* LaunchScreen.xib */,
 				5D4AEBCE19ED7A5B00FA040F /* IDM.xcdatamodeld */,
+				5D4AEBF619EDA44600FA040F /* Event.h */,
+				5D4AEBF719EDA44600FA040F /* Event.m */,
+				5D4AEBF919EDA65700FA040F /* Underscore */,
 				5D4AEBC719ED7A5B00FA040F /* Supporting Files */,
 			);
 			path = IDM;
@@ -125,6 +357,35 @@
 				5D4AEBE819ED7A5B00FA040F /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5D4AEBF919EDA65700FA040F /* Underscore */ = {
+			isa = PBXGroup;
+			children = (
+				5D4AEBFA19EDA65700FA040F /* Strings */,
+				5D4AEBFF19EDA65700FA040F /* Underscore+Functional.h */,
+				5D4AEC0019EDA65700FA040F /* Underscore+Functional.m */,
+				5D4AEC0119EDA65700FA040F /* Underscore-Prefix.pch */,
+				5D4AEC0219EDA65700FA040F /* Underscore.h */,
+				5D4AEC0319EDA65700FA040F /* Underscore.m */,
+				5D4AEC0419EDA65700FA040F /* USArrayWrapper.h */,
+				5D4AEC0519EDA65700FA040F /* USArrayWrapper.m */,
+				5D4AEC0619EDA65700FA040F /* USConstants.h */,
+				5D4AEC0719EDA65700FA040F /* USDictionaryWrapper.h */,
+				5D4AEC0819EDA65700FA040F /* USDictionaryWrapper.m */,
+			);
+			path = Underscore;
+			sourceTree = "<group>";
+		};
+		5D4AEBFA19EDA65700FA040F /* Strings */ = {
+			isa = PBXGroup;
+			children = (
+				5D4AEBFB19EDA65700FA040F /* Underscore+Strings.h */,
+				5D4AEBFC19EDA65700FA040F /* Underscore+Strings.m */,
+				5D4AEBFD19EDA65700FA040F /* USStringWrapper.h */,
+				5D4AEBFE19EDA65700FA040F /* USStringWrapper.m */,
+			);
+			path = Strings;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,9 +468,59 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D3A46E119EEDA4400F9D84B /* Hotel Marshfield.png in Resources */,
+				5D3A46E719EEDA4400F9D84B /* Jefferson Street Inn.png in Resources */,
+				5D3A46D519EEDA4400F9D84B /* back-arrow.png in Resources */,
+				5D3A46DE19EEDA4400F9D84B /* help-me-find-a-property@2x.png in Resources */,
+				5D3A46E019EEDA4400F9D84B /* Hotel Julien Dubuque@2x.png in Resources */,
+				5D3A471219EF01AD00F9D84B /* Hotel Julien Dubuque Photo.jpg in Resources */,
+				5D3A46F419EEDA4400F9D84B /* what-is-the-size-of-your-group-event@2x.png in Resources */,
+				5D3A471019EF01AD00F9D84B /* Edgewater Resort Photo.jpg in Resources */,
+				5D3A46D419EEDA4400F9D84B /* available-properties@2x.png in Resources */,
+				5D3A46F219EEDA4400F9D84B /* The Plaza Hotel & Café@2x.png in Resources */,
+				5D3A471A19EF01AD00F9D84B /* The Plaza Hotel & Café Photo.jpg in Resources */,
+				5D3A46EC19EEDA4400F9D84B /* Ramada Janesville@2x.png in Resources */,
+				5D3A46EF19EEDA4400F9D84B /* splash.png in Resources */,
+				5D3A46EB19EEDA4400F9D84B /* Ramada Janesville.png in Resources */,
+				5D3A471419EF01AD00F9D84B /* Hotel Marshfield Photo.jpg in Resources */,
+				5D3A471119EF01AD00F9D84B /* Edgewater Resort Photo@2x.jpg in Resources */,
+				5D3A471519EF01AD00F9D84B /* Hotel Marshfield Photo@2x.jpg in Resources */,
+				5D3A46F919EEDF2400F9D84B /* Museo700-Regular.otf in Resources */,
+				5D3A46FE19EEEE3F00F9D84B /* Museo300-Regular.otf in Resources */,
+				5D3A470F19EF01AD00F9D84B /* Cranberry Country Lodge Photo@2x.jpg in Resources */,
+				5D3A46DD19EEDA4400F9D84B /* help-me-find-a-property.png in Resources */,
+				5D3A471619EF01AD00F9D84B /* Jefferson Street Inn Photo.jpg in Resources */,
+				5D3A46DB19EEDA4400F9D84B /* Edgewater Resort.png in Resources */,
+				5D3A46F319EEDA4400F9D84B /* what-is-the-size-of-your-group-event.png in Resources */,
+				5D3A46DC19EEDA4400F9D84B /* Edgewater Resort@2x.png in Resources */,
+				5D3A46DF19EEDA4400F9D84B /* Hotel Julien Dubuque.png in Resources */,
+				5D3A46E219EEDA4400F9D84B /* Hotel Marshfield@2x.png in Resources */,
+				5D3A46EE19EEDA4400F9D84B /* request-for-proposal@2x.png in Resources */,
+				5D3A46E919EEDA4400F9D84B /* next.png in Resources */,
+				5D3A46E819EEDA4400F9D84B /* Jefferson Street Inn@2x.png in Resources */,
+				5D91C22A19EF15B50080F67D /* MuseoSans-300.otf in Resources */,
+				5D3A471919EF01AD00F9D84B /* Ramada Janesville Photo@2x.jpg in Resources */,
 				5D4AEBD919ED7A5B00FA040F /* Main.storyboard in Resources */,
+				5D3A471B19EF01AD00F9D84B /* The Plaza Hotel & Café Photo@2x.jpg in Resources */,
+				5D3A46F019EEDA4400F9D84B /* splash@2x.png in Resources */,
+				5D3A46E519EEDA4400F9D84B /* i-know-the-property.png in Resources */,
+				5D3A470E19EF01AD00F9D84B /* Cranberry Country Lodge Photo.jpg in Resources */,
+				5D3A46D919EEDA4400F9D84B /* Cranberry Country Lodge.png in Resources */,
+				5D3A471719EF01AD00F9D84B /* Jefferson Street Inn Photo@2x.jpg in Resources */,
+				5D3A46F119EEDA4400F9D84B /* The Plaza Hotel & Café.png in Resources */,
+				5D91C22B19EF15B50080F67D /* MuseoSans_700.otf in Resources */,
+				5D3A46D619EEDA4400F9D84B /* back-arrow@2x.png in Resources */,
+				5D3A471319EF01AD00F9D84B /* Hotel Julien Dubuque Photo@2x.jpg in Resources */,
+				5D3A46DA19EEDA4400F9D84B /* Cranberry Country Lodge@2x.png in Resources */,
 				5D4AEBDE19ED7A5B00FA040F /* LaunchScreen.xib in Resources */,
+				5D3A46E619EEDA4400F9D84B /* i-know-the-property@2x.png in Resources */,
+				5D3A46D319EEDA4400F9D84B /* available-properties.png in Resources */,
+				5D3A46ED19EEDA4400F9D84B /* request-for-proposal.png in Resources */,
+				5D3A471819EF01AD00F9D84B /* Ramada Janesville Photo.jpg in Resources */,
+				5D3A46EA19EEDA4400F9D84B /* next@2x.png in Resources */,
+				5D3A46D719EEDA4400F9D84B /* blurred-background.png in Resources */,
 				5D4AEBDB19ED7A5B00FA040F /* Images.xcassets in Resources */,
+				5D3A46D819EEDA4400F9D84B /* blurred-background@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,11 +538,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D4AEBF819EDA44600FA040F /* Event.m in Sources */,
+				5D3A46FC19EEEA3500F9D84B /* PropertyDetailViewController.m in Sources */,
+				5D91C22719EF11810080F67D /* IDMNavigationController.m in Sources */,
 				5D4AEBD619ED7A5B00FA040F /* DetailViewController.m in Sources */,
 				5D4AEBD319ED7A5B00FA040F /* MasterViewController.m in Sources */,
 				5D4AEBCD19ED7A5B00FA040F /* AppDelegate.m in Sources */,
+				5D3A46F719EEDD4300F9D84B /* PropertyTableViewCell.m in Sources */,
+				5DCDD41B19FAF5A700681C3B /* PartyNeedsViewController.m in Sources */,
+				5D4AEC0B19EDA65700FA040F /* Underscore+Functional.m in Sources */,
+				5D4AEC0D19EDA65700FA040F /* USArrayWrapper.m in Sources */,
+				5D4AEC0C19EDA65700FA040F /* Underscore.m in Sources */,
+				5DCDD41519FAF57800681C3B /* PartySizeViewController.m in Sources */,
+				5D4AEC0E19EDA65700FA040F /* USDictionaryWrapper.m in Sources */,
+				5D4AEC0A19EDA65700FA040F /* USStringWrapper.m in Sources */,
+				5DCDD41819FAF59000681C3B /* PartyTypeViewController.m in Sources */,
 				5D4AEBD019ED7A5B00FA040F /* IDM.xcdatamodeld in Sources */,
+				5D4AEC0919EDA65700FA040F /* Underscore+Strings.m in Sources */,
 				5D4AEBCA19ED7A5B00FA040F /* main.m in Sources */,
+				5D4AEC1119EED7CF00FA040F /* PropertyTableViewController.m in Sources */,
+				5DCDD41E19FAFAEA00681C3B /* AvailablePropertiesViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +750,7 @@
 				5D4AEBEF19ED7A5B00FA040F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5D4AEBF019ED7A5B00FA040F /* Build configuration list for PBXNativeTarget "IDMTests" */ = {
 			isa = XCConfigurationList;
@@ -432,6 +759,7 @@
 				5D4AEBF219ED7A5B00FA040F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
