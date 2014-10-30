@@ -37,4 +37,18 @@
 
 
 
+- (IBAction)chooseTen:(UIButton *)sender {
+}
+
+- (IBAction)chooseForty:(UIButton *)sender {
+}
+
+- (IBAction)chooseOneHundred:(UIButton *)sender {
+}
+
+- (IBAction)chooseTwoHundred:(UIButton *)sender {
+}
+
+- (IBAction)chooseThreeHundred:(UIButton *)sender {
+}
 @end

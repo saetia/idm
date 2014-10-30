@@ -34,4 +34,12 @@
 }
 */
 
+- (IBAction)chooseRooms:(UIButton *)sender {
+}
+
+- (IBAction)chooseCatering:(UIButton *)sender {
+}
+
+- (IBAction)chooseRoomsAndCatering:(UIButton *)sender {
+}
 @end

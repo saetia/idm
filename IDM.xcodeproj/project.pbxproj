@@ -57,6 +57,17 @@
 		5D3A471919EF01AD00F9D84B /* Ramada Janesville Photo@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5D3A470B19EF01AD00F9D84B /* Ramada Janesville Photo@2x.jpg */; };
 		5D3A471A19EF01AD00F9D84B /* The Plaza Hotel & Café Photo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5D3A470C19EF01AD00F9D84B /* The Plaza Hotel & Café Photo.jpg */; };
 		5D3A471B19EF01AD00F9D84B /* The Plaza Hotel & Café Photo@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5D3A470D19EF01AD00F9D84B /* The Plaza Hotel & Café Photo@2x.jpg */; };
+		5D3A697C1A000BE9007739E3 /* RequestForProposalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D3A697B1A000BE9007739E3 /* RequestForProposalViewController.m */; };
+		5D3A69921A000F4F007739E3 /* TPKeyboardAvoidingCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D3A698B1A000F4F007739E3 /* TPKeyboardAvoidingCollectionView.m */; };
+		5D3A69931A000F4F007739E3 /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D3A698D1A000F4F007739E3 /* TPKeyboardAvoidingScrollView.m */; };
+		5D3A69941A000F4F007739E3 /* TPKeyboardAvoidingTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D3A698F1A000F4F007739E3 /* TPKeyboardAvoidingTableView.m */; };
+		5D3A69951A000F4F007739E3 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D3A69911A000F4F007739E3 /* UIScrollView+TPKeyboardAvoidingAdditions.m */; };
+		5D3A69971A00101C007739E3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D3A69961A00101C007739E3 /* UIKit.framework */; };
+		5D3A69991A001044007739E3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D3A69981A001044007739E3 /* CoreGraphics.framework */; };
+		5D3A699B1A001049007739E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D3A699A1A001049007739E3 /* Foundation.framework */; };
+		5D3A69A31A0014CA007739E3 /* JVFloatLabeledTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D3A699E1A0014CA007739E3 /* JVFloatLabeledTextField.m */; };
+		5D3A69A41A0014CA007739E3 /* JVFloatLabeledTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D3A69A01A0014CA007739E3 /* JVFloatLabeledTextView.m */; };
+		5D3A69A51A0014CA007739E3 /* NSString+TextDirectionality.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D3A69A21A0014CA007739E3 /* NSString+TextDirectionality.m */; };
 		5D4AEBCA19ED7A5B00FA040F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D4AEBC919ED7A5B00FA040F /* main.m */; };
 		5D4AEBCD19ED7A5B00FA040F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D4AEBCC19ED7A5B00FA040F /* AppDelegate.m */; };
 		5D4AEBD019ED7A5B00FA040F /* IDM.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5D4AEBCE19ED7A5B00FA040F /* IDM.xcdatamodeld */; };
@@ -146,6 +157,25 @@
 		5D3A470B19EF01AD00F9D84B /* Ramada Janesville Photo@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Ramada Janesville Photo@2x.jpg"; sourceTree = "<group>"; };
 		5D3A470C19EF01AD00F9D84B /* The Plaza Hotel & Café Photo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "The Plaza Hotel & Café Photo.jpg"; sourceTree = "<group>"; };
 		5D3A470D19EF01AD00F9D84B /* The Plaza Hotel & Café Photo@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "The Plaza Hotel & Café Photo@2x.jpg"; sourceTree = "<group>"; };
+		5D3A697A1A000BE9007739E3 /* RequestForProposalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestForProposalViewController.h; sourceTree = "<group>"; };
+		5D3A697B1A000BE9007739E3 /* RequestForProposalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestForProposalViewController.m; sourceTree = "<group>"; };
+		5D3A698A1A000F4F007739E3 /* TPKeyboardAvoidingCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingCollectionView.h; sourceTree = "<group>"; };
+		5D3A698B1A000F4F007739E3 /* TPKeyboardAvoidingCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingCollectionView.m; sourceTree = "<group>"; };
+		5D3A698C1A000F4F007739E3 /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
+		5D3A698D1A000F4F007739E3 /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
+		5D3A698E1A000F4F007739E3 /* TPKeyboardAvoidingTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingTableView.h; sourceTree = "<group>"; };
+		5D3A698F1A000F4F007739E3 /* TPKeyboardAvoidingTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingTableView.m; sourceTree = "<group>"; };
+		5D3A69901A000F4F007739E3 /* UIScrollView+TPKeyboardAvoidingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+TPKeyboardAvoidingAdditions.h"; sourceTree = "<group>"; };
+		5D3A69911A000F4F007739E3 /* UIScrollView+TPKeyboardAvoidingAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TPKeyboardAvoidingAdditions.m"; sourceTree = "<group>"; };
+		5D3A69961A00101C007739E3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5D3A69981A001044007739E3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5D3A699A1A001049007739E3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5D3A699D1A0014CA007739E3 /* JVFloatLabeledTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JVFloatLabeledTextField.h; sourceTree = "<group>"; };
+		5D3A699E1A0014CA007739E3 /* JVFloatLabeledTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JVFloatLabeledTextField.m; sourceTree = "<group>"; };
+		5D3A699F1A0014CA007739E3 /* JVFloatLabeledTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JVFloatLabeledTextView.h; sourceTree = "<group>"; };
+		5D3A69A01A0014CA007739E3 /* JVFloatLabeledTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JVFloatLabeledTextView.m; sourceTree = "<group>"; };
+		5D3A69A11A0014CA007739E3 /* NSString+TextDirectionality.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TextDirectionality.h"; sourceTree = "<group>"; };
+		5D3A69A21A0014CA007739E3 /* NSString+TextDirectionality.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+TextDirectionality.m"; sourceTree = "<group>"; };
 		5D4AEBC419ED7A5B00FA040F /* IDM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IDM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D4AEBC819ED7A5B00FA040F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5D4AEBC919ED7A5B00FA040F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -199,6 +229,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D3A699B1A001049007739E3 /* Foundation.framework in Frameworks */,
+				5D3A69991A001044007739E3 /* CoreGraphics.framework in Frameworks */,
+				5D3A69971A00101C007739E3 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,9 +310,40 @@
 			name = "Detail Photos";
 			sourceTree = "<group>";
 		};
+		5D3A69891A000F4F007739E3 /* TPKeyboardAvoiding */ = {
+			isa = PBXGroup;
+			children = (
+				5D3A698A1A000F4F007739E3 /* TPKeyboardAvoidingCollectionView.h */,
+				5D3A698B1A000F4F007739E3 /* TPKeyboardAvoidingCollectionView.m */,
+				5D3A698C1A000F4F007739E3 /* TPKeyboardAvoidingScrollView.h */,
+				5D3A698D1A000F4F007739E3 /* TPKeyboardAvoidingScrollView.m */,
+				5D3A698E1A000F4F007739E3 /* TPKeyboardAvoidingTableView.h */,
+				5D3A698F1A000F4F007739E3 /* TPKeyboardAvoidingTableView.m */,
+				5D3A69901A000F4F007739E3 /* UIScrollView+TPKeyboardAvoidingAdditions.h */,
+				5D3A69911A000F4F007739E3 /* UIScrollView+TPKeyboardAvoidingAdditions.m */,
+			);
+			path = TPKeyboardAvoiding;
+			sourceTree = "<group>";
+		};
+		5D3A699C1A0014CA007739E3 /* JVFloatLabeledTextField */ = {
+			isa = PBXGroup;
+			children = (
+				5D3A699D1A0014CA007739E3 /* JVFloatLabeledTextField.h */,
+				5D3A699E1A0014CA007739E3 /* JVFloatLabeledTextField.m */,
+				5D3A699F1A0014CA007739E3 /* JVFloatLabeledTextView.h */,
+				5D3A69A01A0014CA007739E3 /* JVFloatLabeledTextView.m */,
+				5D3A69A11A0014CA007739E3 /* NSString+TextDirectionality.h */,
+				5D3A69A21A0014CA007739E3 /* NSString+TextDirectionality.m */,
+			);
+			path = JVFloatLabeledTextField;
+			sourceTree = "<group>";
+		};
 		5D4AEBBB19ED7A5B00FA040F = {
 			isa = PBXGroup;
 			children = (
+				5D3A699A1A001049007739E3 /* Foundation.framework */,
+				5D3A69981A001044007739E3 /* CoreGraphics.framework */,
+				5D3A69961A00101C007739E3 /* UIKit.framework */,
 				5D4AEBC619ED7A5B00FA040F /* IDM */,
 				5D4AEBE619ED7A5B00FA040F /* IDMTests */,
 				5D4AEBC519ED7A5B00FA040F /* Products */,
@@ -308,6 +372,10 @@
 				5D4AEBD719ED7A5B00FA040F /* Main.storyboard */,
 				5DCDD41C19FAFAEA00681C3B /* AvailablePropertiesViewController.h */,
 				5DCDD41D19FAFAEA00681C3B /* AvailablePropertiesViewController.m */,
+				5D3A699C1A0014CA007739E3 /* JVFloatLabeledTextField */,
+				5D3A69891A000F4F007739E3 /* TPKeyboardAvoiding */,
+				5D3A697A1A000BE9007739E3 /* RequestForProposalViewController.h */,
+				5D3A697B1A000BE9007739E3 /* RequestForProposalViewController.m */,
 				5DCDD41919FAF5A700681C3B /* PartyNeedsViewController.h */,
 				5DCDD41A19FAF5A700681C3B /* PartyNeedsViewController.m */,
 				5DCDD41619FAF59000681C3B /* PartyTypeViewController.h */,
@@ -437,6 +505,7 @@
 				TargetAttributes = {
 					5D4AEBC319ED7A5B00FA040F = {
 						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = E5K998MAEV;
 					};
 					5D4AEBE219ED7A5B00FA040F = {
 						CreatedOnToolsVersion = 6.0.1;
@@ -540,15 +609,22 @@
 			files = (
 				5D4AEBF819EDA44600FA040F /* Event.m in Sources */,
 				5D3A46FC19EEEA3500F9D84B /* PropertyDetailViewController.m in Sources */,
+				5D3A69A31A0014CA007739E3 /* JVFloatLabeledTextField.m in Sources */,
 				5D91C22719EF11810080F67D /* IDMNavigationController.m in Sources */,
 				5D4AEBD619ED7A5B00FA040F /* DetailViewController.m in Sources */,
+				5D3A69951A000F4F007739E3 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
+				5D3A69921A000F4F007739E3 /* TPKeyboardAvoidingCollectionView.m in Sources */,
 				5D4AEBD319ED7A5B00FA040F /* MasterViewController.m in Sources */,
 				5D4AEBCD19ED7A5B00FA040F /* AppDelegate.m in Sources */,
 				5D3A46F719EEDD4300F9D84B /* PropertyTableViewCell.m in Sources */,
 				5DCDD41B19FAF5A700681C3B /* PartyNeedsViewController.m in Sources */,
+				5D3A69941A000F4F007739E3 /* TPKeyboardAvoidingTableView.m in Sources */,
 				5D4AEC0B19EDA65700FA040F /* Underscore+Functional.m in Sources */,
 				5D4AEC0D19EDA65700FA040F /* USArrayWrapper.m in Sources */,
 				5D4AEC0C19EDA65700FA040F /* Underscore.m in Sources */,
+				5D3A69A41A0014CA007739E3 /* JVFloatLabeledTextView.m in Sources */,
+				5D3A69A51A0014CA007739E3 /* NSString+TextDirectionality.m in Sources */,
+				5D3A697C1A000BE9007739E3 /* RequestForProposalViewController.m in Sources */,
 				5DCDD41519FAF57800681C3B /* PartySizeViewController.m in Sources */,
 				5D4AEC0E19EDA65700FA040F /* USDictionaryWrapper.m in Sources */,
 				5D4AEC0A19EDA65700FA040F /* USStringWrapper.m in Sources */,
@@ -557,6 +633,7 @@
 				5D4AEC0919EDA65700FA040F /* Underscore+Strings.m in Sources */,
 				5D4AEBCA19ED7A5B00FA040F /* main.m in Sources */,
 				5D4AEC1119EED7CF00FA040F /* PropertyTableViewController.m in Sources */,
+				5D3A69931A000F4F007739E3 /* TPKeyboardAvoidingScrollView.m in Sources */,
 				5DCDD41E19FAFAEA00681C3B /* AvailablePropertiesViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

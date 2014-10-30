@@ -9,5 +9,12 @@
 #import <UIKit/UIKit.h>
 
 @interface PartyTypeViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UIButton *corporateButton;
+@property (weak, nonatomic) IBOutlet UIButton *weddingButton;
+@property (weak, nonatomic) IBOutlet UIButton *socialButton;
+- (IBAction)chooseCorporate:(UIButton *)sender;
+- (IBAction)chooseWedding:(UIButton *)sender;
+- (IBAction)chooseSocial:(UIButton *)sender;
+@property (weak, nonatomic) IBOutlet UIButton *nextButton;
 
 @end
