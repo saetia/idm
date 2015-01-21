@@ -66,9 +66,6 @@
 		5D3A69971A00101C007739E3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D3A69961A00101C007739E3 /* UIKit.framework */; };
 		5D3A69991A001044007739E3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D3A69981A001044007739E3 /* CoreGraphics.framework */; };
 		5D3A699B1A001049007739E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D3A699A1A001049007739E3 /* Foundation.framework */; };
-		5D3A69A31A0014CA007739E3 /* JVFloatLabeledTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D3A699E1A0014CA007739E3 /* JVFloatLabeledTextField.m */; };
-		5D3A69A41A0014CA007739E3 /* JVFloatLabeledTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D3A69A01A0014CA007739E3 /* JVFloatLabeledTextView.m */; };
-		5D3A69A51A0014CA007739E3 /* NSString+TextDirectionality.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D3A69A21A0014CA007739E3 /* NSString+TextDirectionality.m */; };
 		5D4AEBCA19ED7A5B00FA040F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D4AEBC919ED7A5B00FA040F /* main.m */; };
 		5D4AEBCD19ED7A5B00FA040F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D4AEBCC19ED7A5B00FA040F /* AppDelegate.m */; };
 		5D4AEBD019ED7A5B00FA040F /* IDM.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5D4AEBCE19ED7A5B00FA040F /* IDM.xcdatamodeld */; };
@@ -88,6 +85,11 @@
 		5D91C22719EF11810080F67D /* IDMNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D91C22619EF11810080F67D /* IDMNavigationController.m */; };
 		5D91C22A19EF15B50080F67D /* MuseoSans-300.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5D91C22819EF15B50080F67D /* MuseoSans-300.otf */; };
 		5D91C22B19EF15B50080F67D /* MuseoSans_700.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5D91C22919EF15B50080F67D /* MuseoSans_700.otf */; };
+		5DCCBBD01A644574002A7ACE /* checkmark.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DCCBBCE1A644574002A7ACE /* checkmark.png */; };
+		5DCCBBD11A644574002A7ACE /* checkmark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DCCBBCF1A644574002A7ACE /* checkmark@2x.png */; };
+		5DCCBBD91A6452AD002A7ACE /* JVFloatLabeledTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DCCBBD41A6452AD002A7ACE /* JVFloatLabeledTextField.m */; };
+		5DCCBBDA1A6452AD002A7ACE /* JVFloatLabeledTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DCCBBD61A6452AD002A7ACE /* JVFloatLabeledTextView.m */; };
+		5DCCBBDB1A6452AD002A7ACE /* NSString+TextDirectionality.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DCCBBD81A6452AD002A7ACE /* NSString+TextDirectionality.m */; };
 		5DCDD41519FAF57800681C3B /* PartySizeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DCDD41419FAF57800681C3B /* PartySizeViewController.m */; };
 		5DCDD41819FAF59000681C3B /* PartyTypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DCDD41719FAF59000681C3B /* PartyTypeViewController.m */; };
 		5DCDD41B19FAF5A700681C3B /* PartyNeedsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DCDD41A19FAF5A700681C3B /* PartyNeedsViewController.m */; };
@@ -171,12 +173,6 @@
 		5D3A69961A00101C007739E3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5D3A69981A001044007739E3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		5D3A699A1A001049007739E3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		5D3A699D1A0014CA007739E3 /* JVFloatLabeledTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JVFloatLabeledTextField.h; sourceTree = "<group>"; };
-		5D3A699E1A0014CA007739E3 /* JVFloatLabeledTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JVFloatLabeledTextField.m; sourceTree = "<group>"; };
-		5D3A699F1A0014CA007739E3 /* JVFloatLabeledTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JVFloatLabeledTextView.h; sourceTree = "<group>"; };
-		5D3A69A01A0014CA007739E3 /* JVFloatLabeledTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JVFloatLabeledTextView.m; sourceTree = "<group>"; };
-		5D3A69A11A0014CA007739E3 /* NSString+TextDirectionality.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TextDirectionality.h"; sourceTree = "<group>"; };
-		5D3A69A21A0014CA007739E3 /* NSString+TextDirectionality.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+TextDirectionality.m"; sourceTree = "<group>"; };
 		5D4AEBC419ED7A5B00FA040F /* IDM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IDM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D4AEBC819ED7A5B00FA040F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5D4AEBC919ED7A5B00FA040F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -214,6 +210,14 @@
 		5D91C22619EF11810080F67D /* IDMNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDMNavigationController.m; sourceTree = "<group>"; };
 		5D91C22819EF15B50080F67D /* MuseoSans-300.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MuseoSans-300.otf"; sourceTree = "<group>"; };
 		5D91C22919EF15B50080F67D /* MuseoSans_700.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MuseoSans_700.otf; sourceTree = "<group>"; };
+		5DCCBBCE1A644574002A7ACE /* checkmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkmark.png; sourceTree = "<group>"; };
+		5DCCBBCF1A644574002A7ACE /* checkmark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkmark@2x.png"; sourceTree = "<group>"; };
+		5DCCBBD31A6452AD002A7ACE /* JVFloatLabeledTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JVFloatLabeledTextField.h; sourceTree = "<group>"; };
+		5DCCBBD41A6452AD002A7ACE /* JVFloatLabeledTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JVFloatLabeledTextField.m; sourceTree = "<group>"; };
+		5DCCBBD51A6452AD002A7ACE /* JVFloatLabeledTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JVFloatLabeledTextView.h; sourceTree = "<group>"; };
+		5DCCBBD61A6452AD002A7ACE /* JVFloatLabeledTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JVFloatLabeledTextView.m; sourceTree = "<group>"; };
+		5DCCBBD71A6452AD002A7ACE /* NSString+TextDirectionality.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TextDirectionality.h"; sourceTree = "<group>"; };
+		5DCCBBD81A6452AD002A7ACE /* NSString+TextDirectionality.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+TextDirectionality.m"; sourceTree = "<group>"; };
 		5DCDD41319FAF57800681C3B /* PartySizeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PartySizeViewController.h; sourceTree = "<group>"; };
 		5DCDD41419FAF57800681C3B /* PartySizeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PartySizeViewController.m; sourceTree = "<group>"; };
 		5DCDD41619FAF59000681C3B /* PartyTypeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PartyTypeViewController.h; sourceTree = "<group>"; };
@@ -248,6 +252,8 @@
 		5D3A46B019EEDA3A00F9D84B /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				5DCCBBCE1A644574002A7ACE /* checkmark.png */,
+				5DCCBBCF1A644574002A7ACE /* checkmark@2x.png */,
 				5D91C22819EF15B50080F67D /* MuseoSans-300.otf */,
 				5D91C22919EF15B50080F67D /* MuseoSans_700.otf */,
 				5D3A46FF19EF019B00F9D84B /* Detail Photos */,
@@ -325,19 +331,6 @@
 			path = TPKeyboardAvoiding;
 			sourceTree = "<group>";
 		};
-		5D3A699C1A0014CA007739E3 /* JVFloatLabeledTextField */ = {
-			isa = PBXGroup;
-			children = (
-				5D3A699D1A0014CA007739E3 /* JVFloatLabeledTextField.h */,
-				5D3A699E1A0014CA007739E3 /* JVFloatLabeledTextField.m */,
-				5D3A699F1A0014CA007739E3 /* JVFloatLabeledTextView.h */,
-				5D3A69A01A0014CA007739E3 /* JVFloatLabeledTextView.m */,
-				5D3A69A11A0014CA007739E3 /* NSString+TextDirectionality.h */,
-				5D3A69A21A0014CA007739E3 /* NSString+TextDirectionality.m */,
-			);
-			path = JVFloatLabeledTextField;
-			sourceTree = "<group>";
-		};
 		5D4AEBBB19ED7A5B00FA040F = {
 			isa = PBXGroup;
 			children = (
@@ -367,13 +360,13 @@
 				5D4AEBCB19ED7A5B00FA040F /* AppDelegate.h */,
 				5D4AEBCC19ED7A5B00FA040F /* AppDelegate.m */,
 				5D4AEBD119ED7A5B00FA040F /* MasterViewController.h */,
+				5DCCBBD21A6452AD002A7ACE /* JVFloatLabeledTextField */,
 				5D4AEBD219ED7A5B00FA040F /* MasterViewController.m */,
 				5D4AEBD419ED7A5B00FA040F /* DetailViewController.h */,
 				5D4AEBD519ED7A5B00FA040F /* DetailViewController.m */,
 				5D4AEBD719ED7A5B00FA040F /* Main.storyboard */,
 				5DCDD41C19FAFAEA00681C3B /* AvailablePropertiesViewController.h */,
 				5DCDD41D19FAFAEA00681C3B /* AvailablePropertiesViewController.m */,
-				5D3A699C1A0014CA007739E3 /* JVFloatLabeledTextField */,
 				5D3A69891A000F4F007739E3 /* TPKeyboardAvoiding */,
 				5D3A697A1A000BE9007739E3 /* RequestForProposalViewController.h */,
 				5D3A697B1A000BE9007739E3 /* RequestForProposalViewController.m */,
@@ -454,6 +447,19 @@
 				5D4AEBFE19EDA65700FA040F /* USStringWrapper.m */,
 			);
 			path = Strings;
+			sourceTree = "<group>";
+		};
+		5DCCBBD21A6452AD002A7ACE /* JVFloatLabeledTextField */ = {
+			isa = PBXGroup;
+			children = (
+				5DCCBBD31A6452AD002A7ACE /* JVFloatLabeledTextField.h */,
+				5DCCBBD41A6452AD002A7ACE /* JVFloatLabeledTextField.m */,
+				5DCCBBD51A6452AD002A7ACE /* JVFloatLabeledTextView.h */,
+				5DCCBBD61A6452AD002A7ACE /* JVFloatLabeledTextView.m */,
+				5DCCBBD71A6452AD002A7ACE /* NSString+TextDirectionality.h */,
+				5DCCBBD81A6452AD002A7ACE /* NSString+TextDirectionality.m */,
+			);
+			path = JVFloatLabeledTextField;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -554,6 +560,7 @@
 				5D3A471419EF01AD00F9D84B /* Hotel Marshfield Photo.jpg in Resources */,
 				5D3A471119EF01AD00F9D84B /* Edgewater Resort Photo@2x.jpg in Resources */,
 				5D0EEE9C1A5C3C8E003940CE /* Media.xcassets in Resources */,
+				5DCCBBD01A644574002A7ACE /* checkmark.png in Resources */,
 				5D3A471519EF01AD00F9D84B /* Hotel Marshfield Photo@2x.jpg in Resources */,
 				5D3A46F919EEDF2400F9D84B /* Museo700-Regular.otf in Resources */,
 				5D3A46FE19EEEE3F00F9D84B /* Museo300-Regular.otf in Resources */,
@@ -590,6 +597,7 @@
 				5D3A46EA19EEDA4400F9D84B /* next@2x.png in Resources */,
 				5D3A46D719EEDA4400F9D84B /* blurred-background.png in Resources */,
 				5D3A46D819EEDA4400F9D84B /* blurred-background@2x.png in Resources */,
+				5DCCBBD11A644574002A7ACE /* checkmark@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -609,7 +617,7 @@
 			files = (
 				5D4AEBF819EDA44600FA040F /* Event.m in Sources */,
 				5D3A46FC19EEEA3500F9D84B /* PropertyDetailViewController.m in Sources */,
-				5D3A69A31A0014CA007739E3 /* JVFloatLabeledTextField.m in Sources */,
+				5DCCBBD91A6452AD002A7ACE /* JVFloatLabeledTextField.m in Sources */,
 				5D91C22719EF11810080F67D /* IDMNavigationController.m in Sources */,
 				5D4AEBD619ED7A5B00FA040F /* DetailViewController.m in Sources */,
 				5D3A69951A000F4F007739E3 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
@@ -622,8 +630,8 @@
 				5D4AEC0B19EDA65700FA040F /* Underscore+Functional.m in Sources */,
 				5D4AEC0D19EDA65700FA040F /* USArrayWrapper.m in Sources */,
 				5D4AEC0C19EDA65700FA040F /* Underscore.m in Sources */,
-				5D3A69A41A0014CA007739E3 /* JVFloatLabeledTextView.m in Sources */,
-				5D3A69A51A0014CA007739E3 /* NSString+TextDirectionality.m in Sources */,
+				5DCCBBDA1A6452AD002A7ACE /* JVFloatLabeledTextView.m in Sources */,
+				5DCCBBDB1A6452AD002A7ACE /* NSString+TextDirectionality.m in Sources */,
 				5D3A697C1A000BE9007739E3 /* RequestForProposalViewController.m in Sources */,
 				5DCDD41519FAF57800681C3B /* PartySizeViewController.m in Sources */,
 				5D4AEC0E19EDA65700FA040F /* USDictionaryWrapper.m in Sources */,

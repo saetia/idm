@@ -11,5 +11,6 @@
 @interface PropertyTableViewCell : UITableViewCell
 
 @property (weak, nonatomic) IBOutlet UILabel *name;
+@property (weak, nonatomic) IBOutlet UIImageView *checkmark;
 
 @end

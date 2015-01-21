@@ -21,8 +21,15 @@
     }
 }
 
+
 - (void)configureView {
-    NSLog(@"loaded %@",[self.detailItem valueForKey:@"name"]);
+    
+    //NSLog(@"loaded %@",[self.detailItem valueForKey:@"name"]);
+   
+    if (self.shouldPreventRFP){
+        [self.requestForProposalButton setAlpha:0];
+    }
+    
     if (self.detailItem) {
         
         self.propertyName.text = [[self.detailItem valueForKey:@"name"] description];

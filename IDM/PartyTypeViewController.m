@@ -7,6 +7,7 @@
 //
 
 #import "PartyTypeViewController.h"
+#import "AppDelegate.h"
 
 @interface PartyTypeViewController ()
 
@@ -17,6 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    [_nextButton setEnabled:NO];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -35,11 +37,44 @@
 */
 
 - (IBAction)chooseCorporate:(UIButton *)sender {
+    [self resetColors];
+    [self.corporateButton setTitleColor:[UIColor colorWithRed:0.82 green:0.67 blue:0.31 alpha:1] forState:UIControlStateNormal];
+    AppDelegate *appDelegate = [[UIApplication sharedApplication] delegate];
+    appDelegate.IDMPartyType = IDMPartyTypeCorporate;
+    [_nextButton setEnabled:YES];
+    [self performSegueWithIdentifier:@"pickedGroupType" sender:self];
 }
 
 - (IBAction)chooseWedding:(UIButton *)sender {
+    [self resetColors];
+    [self.weddingButton setTitleColor:[UIColor colorWithRed:0.82 green:0.67 blue:0.31 alpha:1] forState:UIControlStateNormal];
+    AppDelegate *appDelegate = [[UIApplication sharedApplication] delegate];
+    appDelegate.IDMPartyType = IDMPartyTypeWedding;
+    [_nextButton setEnabled:YES];
+    [self performSegueWithIdentifier:@"pickedGroupType" sender:self];
 }
 
 - (IBAction)chooseSocial:(UIButton *)sender {
+    [self resetColors];
+    [self.socialButton setTitleColor:[UIColor colorWithRed:0.82 green:0.67 blue:0.31 alpha:1] forState:UIControlStateNormal];
+    AppDelegate *appDelegate = [[UIApplication sharedApplication] delegate];
+    appDelegate.IDMPartyType = IDMPartyTypeSocial;
+    [_nextButton setEnabled:YES];
+    [self performSegueWithIdentifier:@"pickedGroupType" sender:self];
 }
+
+
+
+- (void)resetColors {
+    
+    [self.corporateButton setTitleColor:[UIColor colorWithRed:0.25 green:0.61 blue:0.82 alpha:1] forState:UIControlStateNormal];
+    
+    [self.weddingButton setTitleColor:[UIColor colorWithRed:0.25 green:0.61 blue:0.82 alpha:1] forState:UIControlStateNormal];
+    
+    [self.socialButton setTitleColor:[UIColor colorWithRed:0.25 green:0.61 blue:0.82 alpha:1] forState:UIControlStateNormal];
+    
+}
+
+
+
 @end

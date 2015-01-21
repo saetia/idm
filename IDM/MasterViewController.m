@@ -239,37 +239,8 @@
                                                         "We are currently in the process of stabilizing the business and are marketing the property for sale. Please contact us should you be interested.",
                          
                       
-                         },
-                     @{
-                         @"name":                       @"Ramada Janesville",
-                         @"location":                   @"Janesville, Wisconsin",
-                         
-                         //event types
-                         @"meetings":                   @YES,
-                         @"catering":                   @YES,
-                         @"room_block":                 @YES,
-                         
-                         //group types
-                         @"corporate_association":      @YES,
-                         @"social_leisure":             @YES,
-                         @"weddings":                   @YES,
-                         
-                         @"rooms":                      @101,
-                         @"meeting_sqft":               @8000,
-                         
-                         @"food":                       @"Starter's Restaurant",
-                         
-                         @"max_corporate_association":  @300,
-                         @"max_social_leisure":         @300,
-                         @"max_wedding":                @250,
-                         
-                         @"website":                    @"http://www.ramada.com",
-                         @"body":                       @"<h3>IDM’s track record of turning around bank-owned assets has resulted in repeat business from many receivers. Such was the case with a 102-room property in Janesville, Wisconsin. Once a popular hotel bar and meeting place, the Best Western Midway Motor Lodge and Left Guard Restaurant had experienced three receiverships and multiple owners who did not reinvest in the property and eventually lost the brand flag. Therefore the current bank turned to IDM to refresh the property. IDM implemented a plan that included staffing, training and overall management.</p>"
-                         "<p>Overseeing extensive capital improvements, IDM managed the renovations and rebranding and now operates the property and F&B operation as the Ramada Janesville. The bank expects to hold the property for up to five years.</p>",
-                         
-    
-                         },
-                    ];
+                         }
+                     ];
     
     
     

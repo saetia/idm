@@ -14,6 +14,8 @@
 @property (strong, nonatomic) NSFetchedResultsController *fetchedResultsController;
 @property (strong, nonatomic) NSManagedObjectContext *managedObjectContext;
 
+@property (strong, nonatomic) NSMutableArray *selectedProperties;
+
 @property (weak, nonatomic) IBOutlet UIButton *requestForProposalButton;
 
 @end
