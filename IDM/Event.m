@@ -11,6 +11,8 @@
 
 @implementation Event
 
+@dynamic list_view_background;
+@dynamic header_image;
 @dynamic body;
 @dynamic catering;
 @dynamic corporate_association;

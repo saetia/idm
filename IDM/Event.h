@@ -12,6 +12,8 @@
 
 @interface Event : NSManagedObject
 
+@property (nonatomic, retain) NSString * header_image;
+@property (nonatomic, retain) NSString * list_view_background;
 @property (nonatomic, retain) NSString * body;
 @property (nonatomic, retain) NSNumber * catering;
 @property (nonatomic, retain) NSNumber * corporate_association;

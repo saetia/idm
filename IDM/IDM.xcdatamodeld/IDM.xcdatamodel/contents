@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="6244" systemVersion="14A388b" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="6254" systemVersion="14C109" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
     <entity name="Event" representedClassName="Event">
         <attribute name="body" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="catering" optional="YES" attributeType="Boolean" syncable="YES"/>
@@ -8,6 +8,8 @@
             <userInfo/>
         </attribute>
         <attribute name="food" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="header_image" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="list_view_background" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="location" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="max_corporate_association" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <attribute name="max_social_leisure" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
@@ -23,6 +25,6 @@
         <userInfo/>
     </entity>
     <elements>
-        <element name="Event" positionX="261" positionY="189" width="128" height="300"/>
+        <element name="Event" positionX="261" positionY="189" width="128" height="330"/>
     </elements>
 </model>

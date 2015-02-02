@@ -9,6 +9,10 @@
 #import "AppDelegate.h"
 #import "DetailViewController.h"
 #import "MasterViewController.h"
+#import "Event.h"
+#import "AFNetworking/AFHTTPRequestOperationManager.h"
+#import "Underscore.h"
+#define _ Underscore
 
 @interface AppDelegate () <UISplitViewControllerDelegate>
 
@@ -30,8 +34,9 @@
     MasterViewController *controller = (MasterViewController *)masterNavigationController.topViewController;
     controller.managedObjectContext = self.managedObjectContext;
     */
-    
-    
+
+    [self seedData];
+
     return YES;
 }
 
@@ -154,5 +159,120 @@
         }
     }
 }
+
+
+
+
+
+- (void)deleteAllEntities:(NSString *)nameEntity
+{
+    NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] initWithEntityName:nameEntity];
+    [fetchRequest setIncludesPropertyValues:NO]; //only fetch the managedObjectID
+    
+    NSError *error;
+    NSArray *fetchedObjects = [[self managedObjectContext] executeFetchRequest:fetchRequest error:&error];
+    for (NSManagedObject *object in fetchedObjects)
+    {
+        [[self managedObjectContext] deleteObject:object];
+    }
+    
+    error = nil;
+    [[self managedObjectContext] save:&error];
+}
+
+
+
+- (void)seedData {
+    
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    NSString *fingerprint = [defaults objectForKey:@"fingerprint"];
+    
+    AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
+    
+
+    [manager GET:@"http://idmhospitality.com/wp-content/themes/idm/api/index.php" parameters:nil success:^(AFHTTPRequestOperation *operation, id responseObject) {
+        
+        NSLog(@"checking fingerprints: %@ vs %@", fingerprint, responseObject[@"fingerprint"]);
+        
+        if ([fingerprint isEqualToString:responseObject[@"fingerprint"]]) return;
+        
+        
+        [self deleteAllEntities:@"Event"];
+        
+        NSLog(@"Seeding Data: %@", responseObject);
+        
+        for (NSDictionary *property in responseObject[@"results"]){
+            
+            Event *event = (Event *)[NSEntityDescription insertNewObjectForEntityForName:@"Event" inManagedObjectContext:[self managedObjectContext]];
+            
+            event.created_at = [NSDate date];
+            event.name = [property objectForKey:@"property"];
+            event.location = [property objectForKey:@"location"];
+            
+            event.header_image = [property objectForKey:@"header_image"];
+            event.list_view_background = [property objectForKey:@"list_view_background"];
+
+            //event types
+            event.meetings = [NSNumber numberWithBool: Underscore.any(property[@"event_possibilities"], ^BOOL (NSString *eventPossibility) {
+                return [eventPossibility isEqualToString:@"meetings"];
+            })];
+            event.catering = [NSNumber numberWithBool: Underscore.any(property[@"event_possibilities"], ^BOOL (NSString *eventPossibility) {
+                return [eventPossibility isEqualToString:@"catering"];
+            })];
+            event.room_block = [NSNumber numberWithBool: Underscore.any(property[@"event_possibilities"], ^BOOL (NSString *eventPossibility) {
+                return [eventPossibility isEqualToString:@"room_block"];
+            })];
+            
+            
+            //group types
+            event.corporate_association = [NSNumber numberWithBool: Underscore.any(property[@"groups_accepted"], ^BOOL (NSString *eventPossibility) {
+                return [eventPossibility isEqualToString:@"corporate_association"];
+            })];
+            event.social_leisure = [NSNumber numberWithBool: Underscore.any(property[@"groups_accepted"], ^BOOL (NSString *eventPossibility) {
+                return [eventPossibility isEqualToString:@"social_leisure"];
+            })];
+            event.weddings = [NSNumber numberWithBool: Underscore.any(property[@"groups_accepted"], ^BOOL (NSString *eventPossibility) {
+                return [eventPossibility isEqualToString:@"weddings"];
+            })];
+            
+            event.rooms = @([[property objectForKey:@"number_of_rooms"] intValue]);
+            event.meeting_sqft = @([[property objectForKey:@"meeting_square_footage"] intValue]);
+
+            event.food = [property objectForKey:@"restaurant"];
+            
+            event.max_corporate_association = @([[property objectForKey:@"max_corporate_association"] intValue]);
+            event.max_social_leisure = @([[property objectForKey:@"max_social_leisure"] intValue]);
+            event.max_wedding = @([[property objectForKey:@"max_wedding"] intValue]);
+            
+            event.website = [property objectForKey:@"website"];
+            event.body = @"hello";
+            
+        }
+        
+        
+        NSError *error = nil;
+        if (![[self managedObjectContext] save:&error]) {
+            NSLog(@"Unresolved error %@, %@", error, [error userInfo]);
+            abort();
+        }
+        
+        [defaults setObject:responseObject[@"fingerprint"] forKey:@"fingerprint"];
+        
+    } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+        NSLog(@"Error: %@", error);
+    }];
+    
+
+    
+}
+
+
+
+
+
+
+
+
+
 
 @end

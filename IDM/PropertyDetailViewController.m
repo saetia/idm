@@ -7,6 +7,7 @@
 //
 
 #import "PropertyDetailViewController.h"
+#import "UIImageView+AFNetworking.h"
 
 @interface PropertyDetailViewController ()
 
@@ -33,8 +34,8 @@
     if (self.detailItem) {
         
         self.propertyName.text = [[self.detailItem valueForKey:@"name"] description];
-        
-        self.propertyHeaderImage.image = [UIImage imageNamed:[NSString stringWithFormat:@"%@ Photo.jpg", [[self.detailItem valueForKey:@"name"] description]]];
+
+        [self.propertyHeaderImage setImageWithURL:[NSURL URLWithString:[[self.detailItem valueForKey:@"header_image"] description]]];
         
         NSString *html = [NSString stringWithFormat:@"<html>"
                                                     "<head>"

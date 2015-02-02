@@ -37,6 +37,8 @@ typedef NS_ENUM(NSInteger, IDMPartyType) {
 @property (readonly, strong, nonatomic) NSManagedObjectModel *managedObjectModel;
 @property (readonly, strong, nonatomic) NSPersistentStoreCoordinator *persistentStoreCoordinator;
 
+@property BOOL didFetchResults;
+
 @property int IDMPartyType;
 @property int IDMPartySize;
 @property int IDMPartyNeeds;
