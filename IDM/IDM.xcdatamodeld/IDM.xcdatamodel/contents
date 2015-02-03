@@ -3,6 +3,7 @@
     <entity name="Event" representedClassName="Event">
         <attribute name="body" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="catering" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="catering_content" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="corporate_association" optional="YES" attributeType="Boolean" syncable="YES"/>
         <attribute name="created_at" optional="YES" attributeType="Date">
             <userInfo/>
@@ -16,15 +17,18 @@
         <attribute name="max_wedding" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <attribute name="meeting_sqft" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <attribute name="meetings" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="meetings_events_content" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="overview_content" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="room_block" optional="YES" attributeType="Boolean" syncable="YES"/>
         <attribute name="rooms" optional="YES" attributeType="Integer 16" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rooms_content" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="social_leisure" optional="YES" attributeType="Boolean" syncable="YES"/>
         <attribute name="website" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="weddings" optional="YES" attributeType="Boolean" syncable="YES"/>
         <userInfo/>
     </entity>
     <elements>
-        <element name="Event" positionX="261" positionY="189" width="128" height="330"/>
+        <element name="Event" positionX="261" positionY="189" width="128" height="390"/>
     </elements>
 </model>

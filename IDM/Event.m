@@ -11,6 +11,11 @@
 
 @implementation Event
 
+@dynamic overview_content;
+@dynamic rooms_content;
+@dynamic meetings_events_content;
+@dynamic catering_content;
+
 @dynamic list_view_background;
 @dynamic header_image;
 @dynamic body;

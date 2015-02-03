@@ -189,14 +189,12 @@
     
     AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
     
-
     [manager GET:@"http://idmhospitality.com/wp-content/themes/idm/api/index.php" parameters:nil success:^(AFHTTPRequestOperation *operation, id responseObject) {
         
         NSLog(@"checking fingerprints: %@ vs %@", fingerprint, responseObject[@"fingerprint"]);
         
         if ([fingerprint isEqualToString:responseObject[@"fingerprint"]]) return;
-        
-        
+
         [self deleteAllEntities:@"Event"];
         
         NSLog(@"Seeding Data: %@", responseObject);
@@ -208,7 +206,6 @@
             event.created_at = [NSDate date];
             event.name = [property objectForKey:@"property"];
             event.location = [property objectForKey:@"location"];
-            
             event.header_image = [property objectForKey:@"header_image"];
             event.list_view_background = [property objectForKey:@"list_view_background"];
 
@@ -223,7 +220,6 @@
                 return [eventPossibility isEqualToString:@"room_block"];
             })];
             
-            
             //group types
             event.corporate_association = [NSNumber numberWithBool: Underscore.any(property[@"groups_accepted"], ^BOOL (NSString *eventPossibility) {
                 return [eventPossibility isEqualToString:@"corporate_association"];
@@ -235,18 +231,39 @@
                 return [eventPossibility isEqualToString:@"weddings"];
             })];
             
+            NSDictionary *overview_content = _.find(property[@"sections"], ^BOOL (NSDictionary *obj) {
+                return [obj[@"title"] isEqualToString:@"Overview"];
+            });
+            NSDictionary *catering_content = _.find(property[@"sections"], ^BOOL (NSDictionary *obj) {
+                return [obj[@"title"] isEqualToString:@"Catering"];
+            });
+            NSDictionary *rooms_content = _.find(property[@"sections"], ^BOOL (NSDictionary *obj) {
+                return [obj[@"title"] isEqualToString:@"Rooms"];
+            });
+            NSDictionary *meetings_events_content = _.find(property[@"sections"], ^BOOL (NSDictionary *obj) {
+                return [obj[@"title"] isEqualToString:@"Meetings & Events"];
+            });
+
+            event.catering_content = catering_content[@"details"];
+            event.meetings_events_content = meetings_events_content[@"details"];
+            event.rooms_content = rooms_content[@"details"];
+            event.overview_content = overview_content[@"details"];
             event.rooms = @([[property objectForKey:@"number_of_rooms"] intValue]);
             event.meeting_sqft = @([[property objectForKey:@"meeting_square_footage"] intValue]);
-
             event.food = [property objectForKey:@"restaurant"];
-            
             event.max_corporate_association = @([[property objectForKey:@"max_corporate_association"] intValue]);
             event.max_social_leisure = @([[property objectForKey:@"max_social_leisure"] intValue]);
             event.max_wedding = @([[property objectForKey:@"max_wedding"] intValue]);
             
             event.website = [property objectForKey:@"website"];
-            event.body = @"hello";
+            event.body = [NSString stringWithFormat:@"%@%@%@%@",
+                          event.catering_content,
+                          event.meetings_events_content,
+                          event.rooms_content,
+                          event.overview_content];
             
+            NSLog(@"%@",event);
+                  
         }
         
         

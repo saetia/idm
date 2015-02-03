@@ -208,6 +208,8 @@
     
     NSPredicate *compoundPredicate = [NSCompoundPredicate andPredicateWithSubpredicates:predicates];
     
+    NSLog(@"%@",compoundPredicate);
+    
     [fetchRequest setPredicate:compoundPredicate];
 
     // Edit the section name key path and cache name if appropriate.

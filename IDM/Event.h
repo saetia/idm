@@ -32,4 +32,9 @@
 @property (nonatomic, retain) NSString * website;
 @property (nonatomic, retain) NSNumber * weddings;
 
+@property (nonatomic, retain) NSString * overview_content;
+@property (nonatomic, retain) NSString * rooms_content;
+@property (nonatomic, retain) NSString * meetings_events_content;
+@property (nonatomic, retain) NSString * catering_content;
+
 @end

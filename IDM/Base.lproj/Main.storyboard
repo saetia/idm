@@ -2,10 +2,13 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="inU-v7-O4k">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <customFonts key="customFonts">
         <mutableArray key="MuseoSans-300.otf">
+            <string>MuseoSans-300</string>
+            <string>MuseoSans-300</string>
+            <string>MuseoSans-300</string>
+            <string>MuseoSans-300</string>
             <string>MuseoSans-300</string>
             <string>MuseoSans-300</string>
             <string>MuseoSans-300</string>
@@ -47,134 +50,6 @@
         </mutableArray>
     </customFonts>
     <scenes>
-        <!--Navigation Controller-->
-        <scene sceneID="pY4-Hu-kfo">
-            <objects>
-                <navigationController id="RMx-3f-FxP" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="Pmd-2v-anx">
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <connections>
-                        <segue destination="7bK-jq-Zjz" kind="relationship" relationship="rootViewController" id="tsl-Nk-0bq"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="8fS-aE-onr" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-40" y="-630"/>
-        </scene>
-        <!--Detail-->
-        <scene sceneID="yUG-lL-AsK">
-            <objects>
-                <viewController title="Detail" id="JEX-9P-axG" customClass="DetailViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="SYR-Wa-9uf"/>
-                        <viewControllerLayoutGuide type="bottom" id="GAO-Cl-Wes"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="svH-Pt-448">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="dfasddddddddddddddddddddddddddddddddddddsdfsdfsd sdf sadf sadf asdf" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="0XM-y9-sOw">
-                                <rect key="frame" x="318" y="72" width="266" height="508"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="266" id="hX2-cl-7zx"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" size="system"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="0XM-y9-sOw" firstAttribute="trailing" secondItem="svH-Pt-448" secondAttribute="trailingMargin" id="5e5-G4-1JO"/>
-                            <constraint firstItem="0XM-y9-sOw" firstAttribute="top" secondItem="SYR-Wa-9uf" secondAttribute="bottom" constant="8" id="i1u-6U-DMH"/>
-                            <constraint firstItem="GAO-Cl-Wes" firstAttribute="top" secondItem="0XM-y9-sOw" secondAttribute="bottom" constant="20" id="s09-VG-BQi"/>
-                        </constraints>
-                    </view>
-                    <toolbarItems/>
-                    <navigationItem key="navigationItem" title="Detail" id="mOI-FS-AaM"/>
-                    <connections>
-                        <outlet property="detailDescriptionLabel" destination="0XM-y9-sOw" id="deQ-Na-JPF"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="FJe-Yq-33r" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="694" y="120"/>
-        </scene>
-        <!--Split View Controller-->
-        <scene sceneID="Nki-YV-4Qg">
-            <objects>
-                <splitViewController id="H1p-Uh-vWS" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
-                    <connections>
-                        <segue destination="RMx-3f-FxP" kind="relationship" relationship="masterViewController" id="BlO-5A-QYV"/>
-                        <segue destination="vC3-pB-5Vb" kind="relationship" relationship="detailViewController" id="Tll-UG-LXB"/>
-                    </connections>
-                </splitViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="cZU-Oi-B1e" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-768" y="-630"/>
-        </scene>
-        <!--Master-->
-        <scene sceneID="smW-Zh-WAh">
-            <objects>
-                <tableViewController title="Master" clearsSelectionOnViewWillAppear="NO" id="7bK-jq-Zjz" customClass="MasterViewController" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="r7i-6Z-zg0">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" textLabel="Arm-wq-HPj" style="IBUITableViewCellStyleDefault" id="WCw-Qf-5nD">
-                                <rect key="frame" x="0.0" y="86" width="320" height="44"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="WCw-Qf-5nD" id="37f-cq-3Eg">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                    <subviews>
-                                        <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Arm-wq-HPj">
-                                            <rect key="frame" x="15" y="0.0" width="290" height="43"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
-                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                            <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                        </label>
-                                    </subviews>
-                                </tableViewCellContentView>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <connections>
-                                    <segue destination="vC3-pB-5Vb" kind="showDetail" identifier="showDetail" id="GIo-R1-koI"/>
-                                </connections>
-                            </tableViewCell>
-                        </prototypes>
-                        <sections/>
-                        <connections>
-                            <outlet property="dataSource" destination="7bK-jq-Zjz" id="Gho-Na-rnu"/>
-                            <outlet property="delegate" destination="7bK-jq-Zjz" id="RA6-mI-bju"/>
-                        </connections>
-                    </tableView>
-                    <navigationItem key="navigationItem" title="Master" id="Zdf-7t-Un8"/>
-                </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Rux-fX-hf1" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="694" y="-630"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="r7l-gg-dq7">
-            <objects>
-                <navigationController id="vC3-pB-5Vb" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="DjV-YW-jjY">
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <connections>
-                        <segue destination="JEX-9P-axG" kind="relationship" relationship="rootViewController" id="GKi-kA-LjT"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="SLD-UC-DBI" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-40" y="120"/>
-        </scene>
         <!--Navigation Controller-->
         <scene sceneID="WC9-aq-tlf">
             <objects>
@@ -234,7 +109,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6i9-Kn-Yud" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="197" y="2331"/>
+            <point key="canvasLocation" x="137" y="2325"/>
         </scene>
         <!--Party Needs View Controller-->
         <scene sceneID="JTa-3U-LMC">
@@ -742,13 +617,185 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="blurred-background.png" translatesAutoresizingMaskIntoConstraints="NO" id="65g-Hu-Aed">
-                                <rect key="frame" x="-3" y="0.0" width="774" height="279"/>
+                                <rect key="frame" x="-3" y="0.0" width="774" height="174"/>
                             </imageView>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Wrn-7X-0rh">
                                 <color key="backgroundColor" red="0.20392156859999999" green="0.52549019610000003" blue="0.78823529410000004" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5zO-fs-nde">
+                                <rect key="frame" x="47" y="92" width="6" height="55"/>
+                                <color key="backgroundColor" red="0.20392156859999999" green="0.52549019610000003" blue="0.78823529410000004" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5sJ-BR-G1i" customClass="TPKeyboardAvoidingScrollView">
+                                <rect key="frame" x="-20" y="172" width="808" height="872"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2h1-Yw-u5L">
+                                        <rect key="frame" x="20" y="760" width="768" height="92"/>
+                                        <color key="backgroundColor" red="0.20392156859999999" green="0.52549019610000003" blue="0.78823529410000004" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="MuseoSans-300" family="Museo Sans" pointSize="35"/>
+                                        <state key="normal" title="Send your Request">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="juz-b9-9tG" kind="show" identifier="sendYourRequest" id="vUk-Jj-hvY"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Catering service for…" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JEO-rr-SLO">
+                                        <rect key="frame" x="85" y="551" width="404" height="40"/>
+                                        <fontDescription key="fontDescription" name="MuseoSans-300" family="Museo Sans" pointSize="30"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="0 Guests" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="sOc-Ik-0F3">
+                                        <rect key="frame" x="497" y="549" width="255" height="40"/>
+                                        <fontDescription key="fontDescription" name="MuseoSans-300" family="Museo Sans" pointSize="30"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="0 Guests" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KFe-gw-iL8">
+                                        <rect key="frame" x="497" y="495" width="255" height="40"/>
+                                        <fontDescription key="fontDescription" name="MuseoSans-300" family="Museo Sans" pointSize="30"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                    </textField>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Event or meeting space for…" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6cO-3K-DVQ">
+                                        <rect key="frame" x="85" y="499" width="411" height="40"/>
+                                        <fontDescription key="fontDescription" name="MuseoSans-300" family="Museo Sans" pointSize="30"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="0 Guests" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="RQ0-g9-8T7">
+                                        <rect key="frame" x="497" y="441" width="255" height="40"/>
+                                        <fontDescription key="fontDescription" name="MuseoSans-300" family="Museo Sans" pointSize="30"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                    </textField>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Room block for…" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PEM-ZK-L0N">
+                                        <rect key="frame" x="85" y="445" width="404" height="40"/>
+                                        <fontDescription key="fontDescription" name="MuseoSans-300" family="Museo Sans" pointSize="30"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="These dates are flexible" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m42-TL-jqf">
+                                        <rect key="frame" x="85" y="390" width="404" height="40"/>
+                                        <fontDescription key="fontDescription" name="MuseoSans-300" family="Museo Sans" pointSize="30"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="a6C-Sc-CJV">
+                                        <rect key="frame" x="703" y="395" width="51" height="31"/>
+                                    </switch>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="End Date…" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="Jnr-lf-99e" customClass="JVFloatLabeledTextField">
+                                        <rect key="frame" x="427" y="321" width="326" height="52"/>
+                                        <fontDescription key="fontDescription" name="MuseoSans-300" family="Museo Sans" pointSize="30"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Start Date…" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="2W9-CR-iyg" customClass="JVFloatLabeledTextField">
+                                        <rect key="frame" x="86" y="321" width="326" height="52"/>
+                                        <fontDescription key="fontDescription" name="MuseoSans-300" family="Museo Sans" pointSize="30"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Event Name" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="vb3-Th-bVX" customClass="JVFloatLabeledTextField">
+                                        <rect key="frame" x="85" y="141" width="667" height="52"/>
+                                        <fontDescription key="fontDescription" name="MuseoSans-300" family="Museo Sans" pointSize="30"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Phone" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="jLz-i3-3Qx" customClass="JVFloatLabeledTextField">
+                                        <rect key="frame" x="426" y="81" width="326" height="52"/>
+                                        <fontDescription key="fontDescription" name="MuseoSans-300" family="Museo Sans" pointSize="30"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="phonePad"/>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="WqJ-dn-hSY" customClass="JVFloatLabeledTextField">
+                                        <rect key="frame" x="85" y="81" width="326" height="52"/>
+                                        <fontDescription key="fontDescription" name="MuseoSans-300" family="Museo Sans" pointSize="30"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Company Name" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="f4O-ld-4GC" customClass="JVFloatLabeledTextField">
+                                        <rect key="frame" x="426" y="21" width="326" height="52"/>
+                                        <fontDescription key="fontDescription" name="MuseoSans-300" family="Museo Sans" pointSize="30"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fXP-Rp-hzr" customClass="JVFloatLabeledTextView">
+                                        <rect key="frame" x="85" y="670" width="667" height="74"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" name="MuseoSans-300" family="Museo Sans" pointSize="23"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Client Name" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="BLu-vG-OWb" customClass="JVFloatLabeledTextField">
+                                        <rect key="frame" x="85" y="21" width="326" height="52"/>
+                                        <fontDescription key="fontDescription" name="MuseoSans-300" family="Museo Sans" pointSize="30"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ibj-5h-L5W">
+                                        <rect key="frame" x="86" y="74" width="666" height="1"/>
+                                        <color key="backgroundColor" red="0.90700771446708284" green="0.92269801718118838" blue="0.94278956847890671" alpha="1" colorSpace="calibratedRGB"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZOv-Zg-fkk">
+                                        <rect key="frame" x="86" y="132" width="666" height="1"/>
+                                        <color key="backgroundColor" red="0.90700771449999995" green="0.9226980172" blue="0.94278956849999995" alpha="1" colorSpace="calibratedRGB"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8Mf-s2-r3N">
+                                        <rect key="frame" x="85" y="191" width="666" height="1"/>
+                                        <color key="backgroundColor" red="0.90700771449999995" green="0.9226980172" blue="0.94278956849999995" alpha="1" colorSpace="calibratedRGB"/>
+                                    </view>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Room Rate Range…" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="kWy-Yq-Bm1" customClass="JVFloatLabeledTextField">
+                                        <rect key="frame" x="85" y="261" width="667" height="52"/>
+                                        <fontDescription key="fontDescription" name="MuseoSans-300" family="Museo Sans" pointSize="30"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="md0-sU-sP3">
+                                        <rect key="frame" x="85" y="311" width="666" height="1"/>
+                                        <color key="backgroundColor" red="0.90700771449999995" green="0.9226980172" blue="0.94278956849999995" alpha="1" colorSpace="calibratedRGB"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1aJ-8y-Ylm">
+                                        <rect key="frame" x="87" y="373" width="666" height="1"/>
+                                        <color key="backgroundColor" red="0.90700771449999995" green="0.9226980172" blue="0.94278956849999995" alpha="1" colorSpace="calibratedRGB"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eZL-fX-8Jx">
+                                        <rect key="frame" x="85" y="438" width="666" height="1"/>
+                                        <color key="backgroundColor" red="0.90700771449999995" green="0.9226980172" blue="0.94278956849999995" alpha="1" colorSpace="calibratedRGB"/>
+                                    </view>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="A/V equipment is needed" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FWZ-2m-0Ca">
+                                        <rect key="frame" x="86" y="608" width="462" height="40"/>
+                                        <fontDescription key="fontDescription" name="MuseoSans-300" family="Museo Sans" pointSize="30"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KVg-7L-HOs">
+                                        <rect key="frame" x="704" y="613" width="51" height="31"/>
+                                    </switch>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QV7-3t-0IZ">
+                                        <rect key="frame" x="86" y="656" width="666" height="1"/>
+                                        <color key="backgroundColor" red="0.90700771449999995" green="0.9226980172" blue="0.94278956849999995" alpha="1" colorSpace="calibratedRGB"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DQA-2y-QEA">
+                                        <rect key="frame" x="85" y="486" width="666" height="1"/>
+                                        <color key="backgroundColor" red="0.90700771449999995" green="0.9226980172" blue="0.94278956849999995" alpha="1" colorSpace="calibratedRGB"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uZ8-0q-Uh4">
+                                        <rect key="frame" x="85" y="542" width="666" height="1"/>
+                                        <color key="backgroundColor" red="0.90700771449999995" green="0.9226980172" blue="0.94278956849999995" alpha="1" colorSpace="calibratedRGB"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Y1G-Wf-Dfb">
+                                        <rect key="frame" x="86" y="599" width="666" height="1"/>
+                                        <color key="backgroundColor" red="0.90700771449999995" green="0.9226980172" blue="0.94278956849999995" alpha="1" colorSpace="calibratedRGB"/>
+                                    </view>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Event Time…" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="GQT-ai-GRn" customClass="JVFloatLabeledTextField">
+                                        <rect key="frame" x="86" y="200" width="326" height="52"/>
+                                        <fontDescription key="fontDescription" name="MuseoSans-300" family="Museo Sans" pointSize="30"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aY3-ws-Z2s">
+                                        <rect key="frame" x="87" y="252" width="666" height="1"/>
+                                        <color key="backgroundColor" red="0.90700771449999995" green="0.9226980172" blue="0.94278956849999995" alpha="1" colorSpace="calibratedRGB"/>
+                                    </view>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Event Budget…" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="uAn-xW-rnE" customClass="JVFloatLabeledTextField">
+                                        <rect key="frame" x="427" y="200" width="326" height="52"/>
+                                        <fontDescription key="fontDescription" name="MuseoSans-300" family="Museo Sans" pointSize="30"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                </subviews>
+                            </scrollView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="mgp-Zf-IFj">
-                                <rect key="frame" x="100" y="72" width="374" height="207"/>
+                                <rect key="frame" x="82" y="72" width="635" height="102"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Request for Proposal">
                                         <attributes>
@@ -760,151 +807,33 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5zO-fs-nde">
-                                <color key="backgroundColor" red="0.20392156859999999" green="0.52549019610000003" blue="0.78823529410000004" alpha="1" colorSpace="calibratedRGB"/>
-                            </view>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5sJ-BR-G1i" customClass="TPKeyboardAvoidingScrollView">
-                                <rect key="frame" x="-20" y="281" width="808" height="763"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2h1-Yw-u5L">
-                                        <rect key="frame" x="20" y="651" width="768" height="92"/>
-                                        <color key="backgroundColor" red="0.20392156859999999" green="0.52549019610000003" blue="0.78823529410000004" alpha="1" colorSpace="calibratedRGB"/>
-                                        <fontDescription key="fontDescription" name="MuseoSans-300" family="Museo Sans" pointSize="35"/>
-                                        <state key="normal" title="Send your Request">
-                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
-                                        <connections>
-                                            <segue destination="juz-b9-9tG" kind="show" id="vUk-Jj-hvY"/>
-                                        </connections>
-                                    </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Catering Service for" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JEO-rr-SLO">
-                                        <rect key="frame" x="85" y="430" width="404" height="40"/>
-                                        <fontDescription key="fontDescription" name="MuseoSans-300" family="Museo Sans" pointSize="30"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="0 Guests" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="sOc-Ik-0F3">
-                                        <rect key="frame" x="497" y="428" width="255" height="40"/>
-                                        <fontDescription key="fontDescription" name="MuseoSans-300" family="Museo Sans" pointSize="30"/>
-                                        <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
-                                    </textField>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="0 Guests" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KFe-gw-iL8">
-                                        <rect key="frame" x="497" y="374" width="255" height="40"/>
-                                        <fontDescription key="fontDescription" name="MuseoSans-300" family="Museo Sans" pointSize="30"/>
-                                        <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
-                                    </textField>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Event or Meeting Space for" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6cO-3K-DVQ">
-                                        <rect key="frame" x="85" y="378" width="404" height="40"/>
-                                        <fontDescription key="fontDescription" name="MuseoSans-300" family="Museo Sans" pointSize="30"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="0 Guests" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="RQ0-g9-8T7">
-                                        <rect key="frame" x="497" y="320" width="255" height="40"/>
-                                        <fontDescription key="fontDescription" name="MuseoSans-300" family="Museo Sans" pointSize="30"/>
-                                        <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
-                                    </textField>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Room Block for" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PEM-ZK-L0N">
-                                        <rect key="frame" x="85" y="324" width="404" height="40"/>
-                                        <fontDescription key="fontDescription" name="MuseoSans-300" family="Museo Sans" pointSize="30"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="These dates are flexible" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m42-TL-jqf">
-                                        <rect key="frame" x="85" y="269" width="404" height="40"/>
-                                        <fontDescription key="fontDescription" name="MuseoSans-300" family="Museo Sans" pointSize="30"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="a6C-Sc-CJV">
-                                        <rect key="frame" x="703" y="274" width="51" height="31"/>
-                                    </switch>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="End Date" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="Jnr-lf-99e" customClass="JVFloatLabeledTextField">
-                                        <rect key="frame" x="426" y="202" width="326" height="52"/>
-                                        <fontDescription key="fontDescription" name="MuseoSans-300" family="Museo Sans" pointSize="30"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                    </textField>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Start Date" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="2W9-CR-iyg" customClass="JVFloatLabeledTextField">
-                                        <rect key="frame" x="85" y="202" width="326" height="52"/>
-                                        <fontDescription key="fontDescription" name="MuseoSans-300" family="Museo Sans" pointSize="30"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                    </textField>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Event Name" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="vb3-Th-bVX" customClass="JVFloatLabeledTextField">
-                                        <rect key="frame" x="85" y="142" width="667" height="52"/>
-                                        <fontDescription key="fontDescription" name="MuseoSans-300" family="Museo Sans" pointSize="30"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                    </textField>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Phone" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="jLz-i3-3Qx" customClass="JVFloatLabeledTextField">
-                                        <rect key="frame" x="426" y="82" width="326" height="52"/>
-                                        <fontDescription key="fontDescription" name="MuseoSans-300" family="Museo Sans" pointSize="30"/>
-                                        <textInputTraits key="textInputTraits" keyboardType="phonePad"/>
-                                    </textField>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="WqJ-dn-hSY" customClass="JVFloatLabeledTextField">
-                                        <rect key="frame" x="85" y="82" width="326" height="52"/>
-                                        <fontDescription key="fontDescription" name="MuseoSans-300" family="Museo Sans" pointSize="30"/>
-                                        <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
-                                    </textField>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Company Name" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="f4O-ld-4GC" customClass="JVFloatLabeledTextField">
-                                        <rect key="frame" x="426" y="22" width="326" height="52"/>
-                                        <fontDescription key="fontDescription" name="MuseoSans-300" family="Museo Sans" pointSize="30"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                    </textField>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fXP-Rp-hzr" customClass="JVFloatLabeledTextView">
-                                        <rect key="frame" x="85" y="495" width="667" height="135"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <fontDescription key="fontDescription" name="MuseoSans-300" family="Museo Sans" pointSize="23"/>
-                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                    </textView>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Client Name" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="BLu-vG-OWb" customClass="JVFloatLabeledTextField">
-                                        <rect key="frame" x="85" y="22" width="326" height="52"/>
-                                        <fontDescription key="fontDescription" name="MuseoSans-300" family="Museo Sans" pointSize="30"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                    </textField>
-                                </subviews>
-                            </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
+                        <outlet property="avNeeded" destination="KVg-7L-HOs" id="eV8-X9-zyP"/>
                         <outlet property="cateringServiceFor" destination="sOc-Ik-0F3" id="rL2-XI-JUV"/>
+                        <outlet property="clientName" destination="BLu-vG-OWb" id="nXz-wj-IxI"/>
+                        <outlet property="companyName" destination="f4O-ld-4GC" id="ruF-Os-z67"/>
+                        <outlet property="email" destination="WqJ-dn-hSY" id="RtJ-Eh-vfX"/>
                         <outlet property="endDate" destination="Jnr-lf-99e" id="kvb-Hw-txd"/>
+                        <outlet property="eventBudget" destination="uAn-xW-rnE" id="m4A-M5-fd9"/>
+                        <outlet property="eventName" destination="vb3-Th-bVX" id="5v5-7O-zVc"/>
                         <outlet property="eventOrMeetingSpaceFor" destination="KFe-gw-iL8" id="mfs-Zo-k7P"/>
+                        <outlet property="eventTime" destination="GQT-ai-GRn" id="qLQ-Q7-Ul1"/>
+                        <outlet property="flexibleDates" destination="a6C-Sc-CJV" id="tZX-lH-WFM"/>
                         <outlet property="notes" destination="fXP-Rp-hzr" id="LJo-BB-eec"/>
+                        <outlet property="phone" destination="jLz-i3-3Qx" id="AcJ-GY-akC"/>
                         <outlet property="roomBlockFor" destination="RQ0-g9-8T7" id="88o-js-dyW"/>
+                        <outlet property="roomRateRange" destination="kWy-Yq-Bm1" id="JcS-dd-yiM"/>
                         <outlet property="scrollView" destination="5sJ-BR-G1i" id="ZCj-vj-nNt"/>
+                        <outlet property="sendYourRequest" destination="2h1-Yw-u5L" id="Wgl-x5-vqV"/>
                         <outlet property="startDate" destination="2W9-CR-iyg" id="cdd-7m-buO"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yJz-DQ-1Xr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1993" y="4322"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="wAo-o4-wwx">
-            <objects>
-                <viewController id="yhW-im-kgp" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Jn3-yh-Msc"/>
-                        <viewControllerLayoutGuide type="bottom" id="R48-aG-Jhb"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="dNY-hA-qA5">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <datePicker contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="ire-qV-mks">
-                                <rect key="frame" x="0.0" y="66" width="600" height="216"/>
-                                <date key="date" timeIntervalSinceReferenceDate="443652179.759808">
-                                    <!--2015-01-22 20:42:59 +0000-->
-                                </date>
-                            </datePicker>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Cw7-Fh-UnJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2272" y="5295"/>
+            <point key="canvasLocation" x="1993" y="4325"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="wFd-u2-k7M">
@@ -938,12 +867,6 @@
                                 <rect key="frame" x="65" y="158" width="6" height="55"/>
                                 <color key="backgroundColor" red="0.20392156859999999" green="0.52549019610000003" blue="0.78823529410000004" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="We appreciate your interest, we will review your application and have a sales member contact you as soon as possible." textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="LSo-rH-xb3">
-                                <rect key="frame" x="65" y="446" width="639" height="291"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="34"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DN6-E7-Eam">
                                 <rect key="frame" x="0.0" y="932" width="768" height="92"/>
                                 <color key="backgroundColor" red="0.20392156859999999" green="0.52549019610000003" blue="0.78823529410000004" alpha="1" colorSpace="calibratedRGB"/>
@@ -956,6 +879,12 @@
                                     <segue destination="inU-v7-O4k" kind="showDetail" identifier="backToStart" id="DEE-K9-tRM"/>
                                 </connections>
                             </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="We appreciate your interest, we will review your application and have a sales member contact you as soon as possible." textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="LSo-rH-xb3">
+                                <rect key="frame" x="141" y="449" width="487" height="229"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -972,9 +901,8 @@
         <image name="i-know-the-property.png" width="368" height="143"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="GIo-R1-koI"/>
         <segue reference="liW-2k-XwP"/>
-        <segue reference="RhP-VH-o7g"/>
+        <segue reference="Om7-M2-Ctz"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
 </document>
