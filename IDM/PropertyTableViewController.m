@@ -20,6 +20,9 @@
 @implementation PropertyTableViewController
 
 - (void)viewDidLoad {
+    
+    self.title=@" ";
+    
     id delegate = [[UIApplication sharedApplication] delegate];
     self.managedObjectContext = [delegate managedObjectContext];
     //id <NSFetchedResultsSectionInfo> sectionInfo = [self.fetchedResultsController sections][0];

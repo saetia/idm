@@ -17,7 +17,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    self.title=@" ";
 //    CATransition *transition = [CATransition animation];
 //    transition.duration = 0.5;
 //    transition.type = kCATransitionPush;

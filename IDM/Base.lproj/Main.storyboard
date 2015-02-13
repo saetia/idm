@@ -42,6 +42,7 @@
             <string>MuseoSans-300</string>
             <string>MuseoSans-300</string>
             <string>MuseoSans-300</string>
+            <string>MuseoSans-300</string>
         </mutableArray>
         <mutableArray key="MuseoSans_700.otf">
             <string>MuseoSans-700</string>
@@ -69,7 +70,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UT4-ZE-VFD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2670" y="2325"/>
+            <point key="canvasLocation" x="-3734" y="2685"/>
         </scene>
         <!--Property Table View Controller-->
         <scene sceneID="RuV-PL-fvc">
@@ -109,7 +110,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6i9-Kn-Yud" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="137" y="2325"/>
+            <point key="canvasLocation" x="-607" y="2725"/>
         </scene>
         <!--Party Needs View Controller-->
         <scene sceneID="JTa-3U-LMC">
@@ -202,12 +203,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rLw-tn-5aC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1592" y="4319"/>
+            <point key="canvasLocation" x="-2664" y="5183"/>
         </scene>
-        <!--View Controller-->
+        <!-- -->
         <scene sceneID="Ubx-ft-Bcw">
             <objects>
-                <viewController id="iDT-uJ-KwX" sceneMemberID="viewController">
+                <viewController title=" " id="iDT-uJ-KwX" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="3Ik-lm-Fgd"/>
                         <viewControllerLayoutGuide type="bottom" id="PDS-Tc-cJb"/>
@@ -240,17 +241,19 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="Rau-eL-955"/>
+                    <navigationItem key="navigationItem" id="Rau-eL-955">
+                        <barButtonItem key="backBarButtonItem" title=" " id="FdG-g5-N29"/>
+                    </navigationItem>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kUj-pV-yKZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1592" y="2325"/>
+            <point key="canvasLocation" x="-2336" y="2725"/>
         </scene>
         <!--Property Detail View Controller-->
         <scene sceneID="vpT-fr-pDY">
             <objects>
-                <viewController id="sXc-Ee-Gdc" customClass="PropertyDetailViewController" sceneMemberID="viewController">
+                <viewController extendedLayoutIncludesOpaqueBars="YES" id="sXc-Ee-Gdc" customClass="PropertyDetailViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="bmC-of-TRN"/>
                         <viewControllerLayoutGuide type="bottom" id="XQL-qt-QoD"/>
@@ -259,22 +262,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="clB-0G-HMr">
-                                <rect key="frame" x="0.0" y="0.0" width="768" height="372"/>
-                                <color key="backgroundColor" red="0.20392156859999999" green="0.52549019610000003" blue="0.78823529410000004" alpha="1" colorSpace="calibratedRGB"/>
-                            </imageView>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mS3-y2-vlI">
-                                <rect key="frame" x="0.0" y="280" width="768" height="92"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Property Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S8X-Vd-vmI">
-                                        <rect key="frame" x="96" y="8" width="664" height="76"/>
-                                        <fontDescription key="fontDescription" name="MuseoSans-700" family="Museo Sans" pointSize="33"/>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
-                                <color key="backgroundColor" red="0.047058823529411764" green="0.22745098039215686" blue="0.47058823529411764" alpha="0.90000000000000002" colorSpace="calibratedRGB"/>
-                            </view>
+                            <webView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" allowsInlineMediaPlayback="NO" mediaPlaybackRequiresUserAction="NO" mediaPlaybackAllowsAirPlay="NO" keyboardDisplayRequiresUserAction="NO" paginationMode="topToBottom" pageLength="1024" translatesAutoresizingMaskIntoConstraints="NO" id="Cl2-Nc-5d1">
+                                <rect key="frame" x="0.0" y="0.0" width="780" height="1024"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <dataDetectorType key="dataDetectorTypes"/>
+                            </webView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C7q-eY-K8B">
                                 <rect key="frame" x="0.0" y="932" width="768" height="92"/>
                                 <color key="backgroundColor" red="0.20392156862745098" green="0.52549019607843139" blue="0.78823529411764703" alpha="1" colorSpace="calibratedRGB"/>
@@ -287,25 +279,19 @@
                                     <segue destination="DQi-ZJ-dqP" kind="show" identifier="requestForProposal" id="mOU-sP-OcJ"/>
                                 </connections>
                             </button>
-                            <webView contentMode="scaleToFill" fixedFrame="YES" allowsInlineMediaPlayback="NO" mediaPlaybackRequiresUserAction="NO" mediaPlaybackAllowsAirPlay="NO" keyboardDisplayRequiresUserAction="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6A1-Ac-iWc">
-                                <rect key="frame" x="0.0" y="372" width="768" height="560"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <dataDetectorType key="dataDetectorTypes"/>
-                            </webView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
                     <connections>
-                        <outlet property="propertyBody" destination="6A1-Ac-iWc" id="o0X-1l-acK"/>
-                        <outlet property="propertyHeaderImage" destination="clB-0G-HMr" id="Lew-ls-39u"/>
-                        <outlet property="propertyName" destination="S8X-Vd-vmI" id="RgQ-fI-nBF"/>
                         <outlet property="requestForProposalButton" destination="C7q-eY-K8B" id="51p-u7-fwd"/>
+                        <outlet property="web" destination="Cl2-Nc-5d1" id="Szk-Z4-yQe"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5ei-eo-Utf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1993" y="2325"/>
+            <point key="canvasLocation" x="1415" y="2707"/>
         </scene>
         <!--Party Type View Controller-->
         <scene sceneID="Fh7-rs-eed">
@@ -397,7 +383,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0qW-rW-bhh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-713" y="4319"/>
+            <point key="canvasLocation" x="-1785" y="5183"/>
         </scene>
         <!--Party Size View Controller-->
         <scene sceneID="hn8-Fx-995">
@@ -512,7 +498,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qw3-Bm-AiN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="197" y="4319"/>
+            <point key="canvasLocation" x="-875" y="5183"/>
         </scene>
         <!--Available Properties View Controller-->
         <scene sceneID="Xyh-up-ZKf">
@@ -602,7 +588,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BDz-br-Tc1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1094" y="4317"/>
+            <point key="canvasLocation" x="22" y="5181"/>
         </scene>
         <!--Request For Proposal View Controller-->
         <scene sceneID="1hW-Sh-2ZO">
@@ -833,7 +819,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yJz-DQ-1Xr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1993" y="4325"/>
+            <point key="canvasLocation" x="921" y="5189"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="wFd-u2-k7M">
@@ -891,7 +877,64 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cnY-3b-8pH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2905" y="4322"/>
+            <point key="canvasLocation" x="1833" y="5186"/>
+        </scene>
+        <!--Property Detail View Controller-->
+        <scene sceneID="ENj-K0-6bh">
+            <objects>
+                <viewController id="sEI-hg-6uy" customClass="PropertyDetailViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="bpA-uH-s2Y"/>
+                        <viewControllerLayoutGuide type="bottom" id="blC-Fm-E2d"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="a08-tS-adv">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PCe-ZN-OEw">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="372"/>
+                                <color key="backgroundColor" red="0.20392156859999999" green="0.52549019610000003" blue="0.78823529410000004" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1gd-ff-2z9">
+                                <rect key="frame" x="0.0" y="280" width="768" height="92"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Property Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p3D-yL-cyv">
+                                        <rect key="frame" x="96" y="8" width="664" height="76"/>
+                                        <fontDescription key="fontDescription" name="MuseoSans-700" family="Museo Sans" pointSize="33"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.047058823530000002" green="0.2274509804" blue="0.47058823529999999" alpha="0.90000000000000002" colorSpace="calibratedRGB"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rxf-lP-6NA">
+                                <rect key="frame" x="0.0" y="932" width="768" height="92"/>
+                                <color key="backgroundColor" red="0.20392156859999999" green="0.52549019610000003" blue="0.78823529410000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="MuseoSans-300" family="Museo Sans" pointSize="33"/>
+                                <state key="normal" title="Request For Proposal">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" allowsInlineMediaPlayback="NO" mediaPlaybackRequiresUserAction="NO" mediaPlaybackAllowsAirPlay="NO" keyboardDisplayRequiresUserAction="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qE2-Yj-n9J">
+                                <rect key="frame" x="0.0" y="372" width="768" height="560"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <dataDetectorType key="dataDetectorTypes"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                    <connections>
+                        <outlet property="propertyBody" destination="qE2-Yj-n9J" id="IOa-ml-LgG"/>
+                        <outlet property="propertyHeaderImage" destination="PCe-ZN-OEw" id="kqp-JT-rEM"/>
+                        <outlet property="propertyName" destination="p3D-yL-cyv" id="kID-q5-5jK"/>
+                        <outlet property="requestForProposalButton" destination="rxf-lP-6NA" id="93c-7d-Gqp"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hwy-Bz-VQx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2929" y="2707"/>
         </scene>
     </scenes>
     <resources>
@@ -901,7 +944,7 @@
         <image name="i-know-the-property.png" width="368" height="143"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="liW-2k-XwP"/>
+        <segue reference="mOU-sP-OcJ"/>
         <segue reference="Om7-M2-Ctz"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>

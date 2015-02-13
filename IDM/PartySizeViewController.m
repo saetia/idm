@@ -15,6 +15,7 @@
 @implementation PartySizeViewController
 
 - (void)viewDidLoad {
+    self.title=@" ";
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     [_nextButton setEnabled:NO];

@@ -7,13 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PropertyViewController.h"
 
 @interface PropertyDetailViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UIWebView *web;
 @property (strong, nonatomic) id detailItem;
 @property BOOL shouldPreventRFP;
-@property (weak, nonatomic) IBOutlet UILabel *propertyName;
-@property (weak, nonatomic) IBOutlet UIImageView *propertyHeaderImage;
-@property (weak, nonatomic) IBOutlet UIWebView *propertyBody;
 @property (weak, nonatomic) IBOutlet UIButton *requestForProposalButton;
 @end

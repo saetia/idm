@@ -26,6 +26,8 @@
 
 - (void)viewDidLoad {
     
+    self.title=@" ";
+    
     [super viewDidLoad];
     [self setScrollView:nil];
     

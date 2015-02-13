@@ -23,6 +23,8 @@
     
     [super viewDidLoad];
     
+    self.title=@" ";
+    
     self.selectedProperties = [[NSMutableArray alloc] init];
 
     id delegate = [[UIApplication sharedApplication] delegate];
