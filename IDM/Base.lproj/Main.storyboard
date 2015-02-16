@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="inU-v7-O4k">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="bwl-K2-NYO">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
     </dependencies>
@@ -111,6 +111,46 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6i9-Kn-Yud" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-607" y="2725"/>
+        </scene>
+        <!--Splash View Controller-->
+        <scene sceneID="lk6-kP-oF4">
+            <objects>
+                <viewController storyboardIdentifier="splash" id="bwl-K2-NYO" customClass="SplashViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="N5T-xv-hdz"/>
+                        <viewControllerLayoutGuide type="bottom" id="yhS-lI-0vR"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="qcb-xg-gOL">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="splash.png" translatesAutoresizingMaskIntoConstraints="NO" id="kgD-xF-jub">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                            </imageView>
+                            <view alpha="0.29999999999999999" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WEY-zO-mA5" customClass="JBKenBurnsView">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cm4-wM-50l">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="inU-v7-O4k" kind="showDetail" id="nIG-ub-LQ9"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                    <connections>
+                        <outlet property="kenView" destination="WEY-zO-mA5" id="Rys-rD-Aeh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TKO-ug-9Kx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2026" y="6059"/>
         </scene>
         <!--Party Needs View Controller-->
         <scene sceneID="JTa-3U-LMC">
@@ -862,7 +902,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="inU-v7-O4k" kind="showDetail" identifier="backToStart" id="DEE-K9-tRM"/>
+                                    <segue destination="bwl-K2-NYO" kind="showDetail" identifier="backToStart" id="ArZ-Vf-8Gt"/>
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="We appreciate your interest, we will review your application and have a sales member contact you as soon as possible." textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="LSo-rH-xb3">
@@ -877,7 +917,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cnY-3b-8pH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1833" y="5186"/>
+            <point key="canvasLocation" x="1993" y="4818"/>
         </scene>
         <!--Property Detail View Controller-->
         <scene sceneID="ENj-K0-6bh">
@@ -942,10 +982,11 @@
         <image name="checkmark.png" width="59" height="59"/>
         <image name="help-me-find-a-property.png" width="442" height="143"/>
         <image name="i-know-the-property.png" width="368" height="143"/>
+        <image name="splash.png" width="768" height="1024"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="mOU-sP-OcJ"/>
         <segue reference="Om7-M2-Ctz"/>
+        <segue reference="mOU-sP-OcJ"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
 </document>
